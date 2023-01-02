@@ -1,1 +1,35 @@
-site_name: My Docs
+site_name: "Cambria Labs"
+site_description: 'Product Lab | Makerspace | Entrepreneur Incubator'
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: teal
+    accent: deep purple
+  font:
+    text: 'Noto Sans JP' # 'Inter', 'Karla', 'Noto Sans JP', 'Montserrat', 'Open Sans'
+    code: 'Roboto Mono' # 'Oxygen Mono', 'Fira Code', 'Roboto Mono'
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/cambria-labs
+  generator: false
+
+nav:
+- 'About Cambria': 
+  - 'Team': index.md
+  - 'Our Approach': index.md
+  - 'Locations': 
+    - Austin: "index.md"
+    - Medellin: "index.md"
+- 'Services': index.md
+- 'Clients': index.md
+- 'Partners': index.md
+- 'Events': index.md
+- 'Blog': index.md
+- 'Docs': index.md
+- 'Tools': index.md
+- 'Contact': index.md
