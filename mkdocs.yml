@@ -27,7 +27,8 @@ extra:
 
 
 nav:
-- 'About Cambria': 
+- 'About': 
+  - 'About Cambria': about.md
   - 'Team': index.md
   - 'Our Approach': index.md
   - 'Locations': 
