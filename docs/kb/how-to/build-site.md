@@ -5,26 +5,27 @@ tags: [meta, tools]
 # How this site is built
 
 ## Overview
-Edit and publish a website using your laptop or mobile device, using plaintext files. 
+Create a website using plain text files, which you can edit on your phone or laptop. 
 
 ## Benefits
-- Use your laptop, phone & tablet to edit website content
-- Website source files are plain text files and are saved to a hosted repository
-- Use a Markdown text editor to edit you website content
-- Automatically publish updates to your website site when changes are saved to the repository
+- Use your laptop, phone & tablet to edit website - even without internet access. 
+- Website source files are plain text files and are saved to a hosted content repository. 
+- Use a Markdown text editor like Obsidian to edit your website content. 
+- Your website automatically updates when you publish changes to the content repository. 
+- You can start writing a note on your phone in bed, continue writing on your laptop, and publish it from your iPad. 
 
 ## Technology Stack
 - Operating systems:
 	- Laptop: MacOS
 	- Phone: iPhoneOS
 	- Tablet: iPadOS
-- File Sync (between laptop & mobile device): iCloud
+- File Sync (between laptop & mobile device): Apple iCloud
 - Domain name provider (DNS): [NameCheap](https://namecheap.com/)
 - Static site generator: [MkDocs](https://www.mkdocs.org/)
 	- Site theme: [MkDocs-Material](https://squidfunk.github.io/mkdocs-material/)
 - Content Repository: [GitHub](https://github.com/)
-- Deployment platform: [Render](http://render.com/)
-- Website Content editor: [Obsidian](https://obsidian.md/)
+- Website Deployment platform: [Render](http://render.com/)
+- Website Content text editor: [Obsidian](https://obsidian.md/) (Desktop & mobile)
 
 ## Assumptions
 - Ensure you have accounts setup for:
@@ -33,7 +34,7 @@ Edit and publish a website using your laptop or mobile device, using plaintext f
 	- Render
 - File locations
 	- Repository URL: https://github.com/{organization}/{Site}
-	- Local Content Directory: `iCloud/Obsidian/{Site}`
+	- Local Content Directory (syncs between your devices): `iCloud/Obsidian/{Site}`
 		- Example: `/Users/jro/Library/Mobile Documents/iCloud~md~obsidian/Documents/Cambria_Public`
 	- Obsidian Vault: `iCloud/Obsidian/{Site}`
 
