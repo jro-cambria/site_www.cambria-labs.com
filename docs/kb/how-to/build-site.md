@@ -93,7 +93,14 @@ Initialize `git` repository in this folder:
 `git init`
 
 Add files to git, do an initial commit, push to repository
-`{TODO: Add git commands here}`
+```
+{TODO: Add git commands here}
+# Add new files to the repository
+# Initial commit
+# Add Remote Origin
+# Test push using git cli
+```
+`
 
 Verify content made it to GitHub repository.
 - Example: https://github.com/cambria-labs/site_www.cambria-labs.com
@@ -129,3 +136,17 @@ Verify content made it to GitHub repository.
 #### Perform a test edit & push
 - In Obsidian, edit a text file (example, add "Hello World" to `index.md`)
 - Open GitHub Deskop and verify that the changed file was detected
+- Commit the change ("Added `Hello World`")
+- Push the commit to the remote origin
+- Check Render's dashboard, and verify that the site build began
+- When the site build completes on Render, open your browser to your site's URL and verify that you see "Hello world" on the site
+
+## Setup mobile device (iPhone/iPad) to edit and publish content
+- [Download & Install Working Copy.app](https://workingcopy.app/)
+- In Working Copy, click the "+" button to add a repository
+- Click "Link External Directory"
+- Browse to your iCloud/Obsidian/{Site}
+
+# To add to this guide
+- How Create SSH key on MacOS & add to GitHub user
+- How to Create SSH key on iPhone Working Copy, add to GitHub repo Deploy keys, so Working Copy can push changes to the repository
