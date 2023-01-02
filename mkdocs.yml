@@ -12,11 +12,19 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+
+# Enable Tags
+# ISSUE: Whenever enabled, site search is disabled
+# plugins:
+#  - tags:
+#      tags_file: topics.md 
 extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/cambria-labs/site_www.cambria-labs.com
   generator: false
+
+
 
 nav:
 - 'About Cambria': 
@@ -33,3 +41,4 @@ nav:
 - 'Docs': index.md
 - 'Tools': index.md
 - 'Contact': index.md
+

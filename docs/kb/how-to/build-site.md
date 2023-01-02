@@ -1,9 +1,20 @@
 ---
 title: "How to build & deploy a site using MkDocs and Render"
-tags: [meta]
+tags: [meta, tools]
 ---
 
+## Benefits
+- Website source files are plain text files (Markdown)
+- Use Markdown text editor (Obsidian) to edit website content
+- Website source files are stored in a hosted repository (GitHub)
+- Website automatically publishes when changes are made to content
+
+## Limitations / Issues
+- Obsidian mobile app can't open files in Google Drive (only iCloud folders, or Obsidian sync)
+
 ## Technology Stack
+- Workstation operating system: MacOS
+- Fileshare: Google Drive
 - Domain name provider: [NameCheap](https://namecheap.com/)
 - Static site generator: [MkDocs](https://www.mkdocs.org/)
 - Site theme: [MkDocs-Material](https://squidfunk.github.io/mkdocs-material/)
@@ -12,16 +23,29 @@ tags: [meta]
 - Code editor: [VSCode](https://code.visualstudio.com/)
 - Content editor: [Obsidian](https://obsidian.md/)
 
+
+
 ## Configure Local workstation
 ### Install tools
-- Install `brew`
-- Install `git`
-- Install `python3`
-- Install `pip3`
-- Install `mkdocs` & `mkdocs-material`
+#### Install Homebrew package manager
+- [Homebrew docs](https://brew.sh/)
+- Verify `brew` is installed: `brew --version`
+
+#### Install `git`
+- `brew install git`
+
+#### Install `python3`
+- `brew install python3`
+
+#### Install `pip3` Python package manager
+- `brew install pip3`
+
+#### Install `mkdocs` and `mkdocs-material`
+- `pip3 install mkdocs`
+- `pip3 install mkdocs-material`
 
 ## Configure Dependencies
-Add `requirements.txt` to root directory:
+Add `requirements.txt` to root directory. Render uses this to build the site.
 ```
 mkdocs
 mkdocs-material
@@ -45,3 +69,7 @@ mkdocs-material
 
 ### Setup Domain name
 - [Render Documentation > Configure DNS](https://render.com/docs/configure-namecheap-dns)
+
+# Editing Site Content
+## On MacOS
+- Open 
