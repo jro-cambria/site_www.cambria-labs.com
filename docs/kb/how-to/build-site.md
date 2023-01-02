@@ -30,9 +30,13 @@ mkdocs-material
 ## Setup Repositories
 - Create a new repository in GutHub
 
+## Configure MkDocs
+- [MkDocs Documentation > Getting Started](https://squidfunk.github.io/mkdocs-material/getting-started/)
+- [MkDocs Documentation > Setup](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/)
+
 ## Configure Render
 ### Integrate Render with GitHub
-- Grant Render access to GitHub repositories
+- [Grant Render access to GitHub repositories](https://render.com/docs/github)
 
 ### Automatically Deploy site upon changes
 - Render build command:

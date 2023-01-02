@@ -15,7 +15,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/cambria-labs
+      link: https://github.com/cambria-labs/site_www.cambria-labs.com
   generator: false
 
 nav:
