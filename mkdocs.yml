@@ -34,7 +34,7 @@ nav:
   - 'Locations': 
     - Austin: "index.md"
     - Medellin: "index.md"
-- 'Services': index.md
+- 'Services': services.md
 - 'Clients': index.md
 - 'Partners': index.md
 - 'Events': index.md
