@@ -37,9 +37,9 @@ extra:
 
 nav:
   - 'About': 
-    - 'About Cambria': about.md
+    - 'About Cambria': about/about-cambria-labs.md
     - 'Team': index.md
-    - 'Our Approach': index.md
+    - 'Our Approach': operations/processes/product-development/product-development-process.md
     - 'Locations': 
       - Austin: "index.md"
       - Medellin: "index.md"
