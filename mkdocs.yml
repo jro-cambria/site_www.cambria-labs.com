@@ -1,5 +1,7 @@
 site_name: "Cambria Labs"
 site_description: 'Product Lab | Makerspace | Entrepreneur Incubator'
+extra_css:
+  - css/custom.css
 theme:
   name: material
   palette:
@@ -12,6 +14,13 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+markdown_extensions:
+  - def_list
+  - attr_list
+  - md_in_html
+  - admonition
+  - toc:
+      title: Table of Contents
 
 # Enable Tags
 # ISSUE: Whenever enabled, site search is disabled
@@ -27,19 +36,21 @@ extra:
 
 
 nav:
-- 'About': 
-  - 'About Cambria': about.md
-  - 'Team': index.md
-  - 'Our Approach': index.md
-  - 'Locations': 
-    - Austin: "index.md"
-    - Medellin: "index.md"
-- 'Services': services.md
-- 'Clients': index.md
-- 'Partners': index.md
-- 'Events': index.md
-- 'Blog': index.md
-- 'Docs': index.md
-- 'Tools': index.md
-- 'Contact': index.md
+  - 'About': 
+    - 'About Cambria': about.md
+    - 'Team': index.md
+    - 'Our Approach': index.md
+    - 'Locations': 
+      - Austin: "index.md"
+      - Medellin: "index.md"
+  - 'Services': services.md
+  - 'Clients': index.md
+  - 'Partners': index.md
+  - 'Events': index.md
+  - 'Blog': index.md
+  - 'Docs': 
+    - documentation/index.md
+    - 'Product Manager Playbook': "documentation/pm_playbook.md"
+  - 'Tools': index.md
+  - 'Contact': index.md
 
