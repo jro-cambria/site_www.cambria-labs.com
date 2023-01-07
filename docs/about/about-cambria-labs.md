@@ -1,3 +1,6 @@
+---
+title: "About Cambria Labs"
+---
 # _"We can build that."_
 
 # Who we are
