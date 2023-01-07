@@ -1,3 +1,4 @@
 # Documentation Index
 
-To be added soon...
+## Product Management
+- [Product Manager Guide](pm_playbook.md)
