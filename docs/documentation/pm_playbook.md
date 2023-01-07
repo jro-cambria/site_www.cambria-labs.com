@@ -4,7 +4,7 @@
 
 Working as product manager in a software development team is a multifaceted and challenging role. Cambria Labs is here to help you and your team build products that deliver meaningful value for your users and your business.
 
-Whether you're a seasoned veteran, a first-time product manager, working in an enterprise, or working in a start-up, this playbook will help you get a sense of the roles, tools, patterns, and methods that lay the foundation for a healthy, sustainable, lean, and agile product development practice. Cambria Labs has over 20 years of experience enabling clients in these practices.
+Whether you're a seasoned veteran, a first-time product manager, working in an enterprise, or working in a start-up, this playbook will help you get a sense of the roles, tools, patterns, and methods that lay the foundation for a healthy, sustainable, lean, and agile product development practice. Cambria Labs has years of experience enabling clients in these practices.
 
 When partnering with Cambria Labs, our clients are committing to work with collaborators rather than contractors. Together, we build software based on continuous input. Clients maintain full control of product direction, feature prioritization, and release timing. Cambria Labs practitioners do the following:
 
@@ -97,7 +97,7 @@ Pair programming, test-driven development (TDD), refactoring, collective code ow
 
 Our product teams are small, co-located or remote, and multidisciplinary. They are organized around goals established by the product sponsor(s) and are empowered to define and iterate on solutions that deliver against those goals. They're also empowered to talk to customers, make product decisions, and push code to production. By virtue of sitting next to each other or sharing virtual space, team members constantly communicate and collaborate with one another. Teams are focused on delivering customer value through working software in small, iterative releases, and are self-organizing in that they can adapt common tools and practices to what works best for all members. Communication among team members tends to be informal, favoring spontaneous conversation over lengthy meetings.
 
-The concept behind this approach is what's known as a "balanced team." It was created by a group of passionate agile practitioners who sought to better blend together agile, UX, and other product disciplines. Early proponents of the balanced team concept include Jeff Patton, David Hussman, Desiree Sy, Jared Spool, and Lane Halley. Former Pivotal employees Janice Fraser and Tim McCoy were early participants, and Cambria Labs hosted one of the first balanced team retreats.
+The concept behind this approach is what's known as a "balanced team." It was created by a group of passionate agile practitioners who sought to better blend together agile, UX, and other product disciplines. Early proponents of the balanced team concept include Jeff Patton, David Hussman, Desiree Sy, Jared Spool, and Lane Halley. Former Pivotal employees Janice Fraser and Tim McCoy were early participants, and Pivotal Labs hosted one of the first balanced team retreats.
 
 Though each project varies, the typical balanced team mix includes a Cambria Labs product manager, product designer, and engineer matched with full-time client counterparts. When we work within the construct of a balanced team, we ensure that all of these perspectives blend into and inform each other so that we build products that are desirable, usable, feasible, and viable.
 
@@ -1007,9 +1007,9 @@ Constraints are important, but they aren't the actual goals of the product. They
 
 ### Managing backlogs with Pivotal Tracker
 
-At Cambria Labs, we typically manage the product backlog using Pivotal Tracker (Tracker). Built by Cambria Labs, Tracker is an agile project management tool used by more than 500,000 people worldwide.
+At Cambria Labs, we typically manage the product backlog using an agile project management tool, such as Linear.app, Asana, or Pivotal Tracker.
 
-**Why?**
+**Why Tracker?**
 
 Tracker is a simple, story-based, agile project planning tool that enables teams to collaborate and react instantly to real-world changes. It's based on agile software development methods, but it can be used on a variety of projects.
 
@@ -1367,7 +1367,7 @@ Check out these books, videos and articles to dive deeper into concepts and tool
 
 **Pivotal Tracker**
 
-- [*Getting Started with Pivotal Tracker*](https://www.pivotaltracker.com/help/articles/quick_start/) <br> by Cambria Labs
+- [*Getting Started with Pivotal Tracker*](https://www.pivotaltracker.com/help/articles/quick_start/) <br> by Pivotal Labs
 
 **Agile Development**
 
