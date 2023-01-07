@@ -1379,3 +1379,6 @@ Check out these books, videos and articles to dive deeper into concepts and tool
 
 - [*Balanced Team*](https://tanzu.vmware.com/content/blog/balanced-team-janice-fraser) <br> by Janice Fraser
 - [*What makes a great product manager*](https://springone.io/2020/sessions/what-makes-a-great-product-manager) <br> by Michael Gresham, Adrien Hensley, Kenneth McDougall, Jennifer Handler
+
+## Credits & Contributions
+- Pivotal Labs Product Manager Playbook, by Pivotal
