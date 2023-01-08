@@ -2,7 +2,10 @@
 title: "Cambria Team Update (2022-01-08)"
 Tags: [news]
 ---
-# Cambria Labs updates
+# Cambria Labs Team update
+Published: 2022-01-08
+
+
 
 ## Learn
 ### What is a Makerspace? 
