@@ -1,9 +1,9 @@
 ---
-title: "Cambria Team Update (2022-01-08)"
+title: "Cambria Team Update (2023-01-08)"
 Tags: [news]
 ---
 # Cambria Labs Team update
-Published: 2022-01-08
+Published: 2023-01-08
 
 
 
@@ -40,7 +40,6 @@ We are open-sourcing & publish the following docs, somewhat in order…
 As our team reads useful books, we like to put the wisdom & suggestions into practice. While reading a book, underline the good stuff - wisdom, actions & routines. Then, when finished reading the book, go back and review the underlined portions, and add them to the team knowledge base and processes. We all learn & benefit from each other. 
 
 We are interested in reading & processing these books next:
-
 
   - The Great CEO Within
   - Intentional Makerspace Operations
