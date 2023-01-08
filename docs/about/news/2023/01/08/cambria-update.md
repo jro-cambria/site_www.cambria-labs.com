@@ -17,6 +17,7 @@ Tags: [news]
 
 ## Next Content
 We are open-sourcing & publish the following docs, somewhat in order…
+
 - Cambria Labs Principles
 - Cambria Labs Values
 - A blog website area, to publish updates like these!
@@ -33,9 +34,10 @@ We are open-sourcing & publish the following docs, somewhat in order…
 - Practices / Balanced Teams
 
 ## Books —> Knowledge Base (KB)
-As our team reads useful books, we like to put the wisdom & suggestions into practice. While reading a book, underline the good stuff - wisdom, actions & routines. Then, when finished reading the book - go back and review the underlined portions, and add them to the team knowledge base. We all learn from each other. 
+As our team reads useful books, we like to put the wisdom & suggestions into practice. While reading a book, underline the good stuff - wisdom, actions & routines. Then, when finished reading the book, go back and review the underlined portions, and add them to the team knowledge base and processes. We all learn & benefit from each other. 
 
 We are interested in reading & processing these books next:
+
   - The Great CEO Within
   - Intentional Makerspace Operations
   - Radical Enterprise
@@ -48,7 +50,9 @@ We are interested in reading & processing these books next:
 - Looking for **Technical Writer** - Write how-to-guides, snazzy templates, synthesize books, notes, knowledge & documents, publish as open-source documents & guides. Tools/Skills: Obsidian, Markdown, Git, GitHub, MkDocs, Knowledge Bases, Blogs, common website publishing platforms
 
 ## Meet-ups
-- JRO @ Austin 1/20-1/30, would love to biz jam. Places. ASMBLY, Beannu, Casa de Luz. Activities: Music / Pickleball / Squash / CNC / White Horse. 
+- JRO @ Austin 1/20-1/30, would love to biz jam. 
+	- Places: ASMBLY, Beannu, Casa de Luz. 
+	- Activities: Music / Pickleball / Squash / CNC / White Horse
 
 
 ## Gratitude
