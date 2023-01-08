@@ -41,6 +41,7 @@ As our team reads useful books, we like to put the wisdom & suggestions into pra
 
 We are interested in reading & processing these books next:
 
+
   - The Great CEO Within
   - Intentional Makerspace Operations
   - Radical Enterprise
@@ -50,7 +51,8 @@ We are interested in reading & processing these books next:
   - The Challenger Sale
 
 ## People
-- Looking for **Technical Writer** - Write how-to-guides, snazzy templates, synthesize books, notes, knowledge & documents, publish as open-source documents & guides. Tools/Skills: Obsidian, Markdown, Git, GitHub, MkDocs, Knowledge Bases, Blogs, common website publishing platforms
+- Looking for **Technical Writer** - Write how-to-guides, snazzy templates, synthesize books, notes, knowledge & documents, publish as open-source documents & guides. 
+	- Tools/Skills: Obsidian, Markdown, Git, GitHub, MkDocs, Knowledge Bases, Blogs, common website publishing platforms
 
 ## Meet-ups
 - JRO @ Austin 1/20-1/30, would love to biz jam. 
