@@ -3,7 +3,9 @@ title: "Documents To Write"
 Tags: [to-do]
 ---
 
-# Priority
+# Documents to write
+
+## Priority
 - Cambria Labs Principles
 - Cambria Labs Values
 - Practices / Open-Source Product Designer Playbook
@@ -18,8 +20,8 @@ Tags: [to-do]
 - User Research
 - Practices / Balanced Teams
 
-# Soon
+## Soon
 
-# Later
+## Later
 
-# Ideas / Wishlist
+## Ideas / Wishlist
