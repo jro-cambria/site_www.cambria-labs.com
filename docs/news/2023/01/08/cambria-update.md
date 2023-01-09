@@ -19,7 +19,7 @@ Published: 2023-01-08
 - Open-source Product Manager Playbook v1 doc is live: [Product Management Playbook](../../../../../documentation/pm_playbook.md). Contributions welcome. Would love to simplify the terminology & graphics - Think: 5th grader language level. 
 
 ## Next Content
-We are open-sourcing & publish the following docs, somewhat in order…
+We are open-sourcing & publishing the following docs, somewhat in order…
 
 - Cambria Labs Principles
 - Cambria Labs Values
