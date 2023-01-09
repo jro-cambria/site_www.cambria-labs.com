@@ -92,7 +92,7 @@ You will be wrong. You will think of better ideas.
 Do not be afraid of being wrong.
 
 
-
+Write in the shower (bath crayons)
 
 Take a shower, a walk, play a game, let it stew in the background, sometimes for days. 
 

@@ -4,7 +4,7 @@ tags: [routines]
 ---
 
 ## Guidance
--   Every act we perform during the day is goal-achieving, tension-relieving, or unnecessary.
+- Every act we perform during the day is goal-achieving, tension-relieving, or unnecessary.
 - Distinguish between the urgent and the important.
 - Eat healthy
 - Prioritize sleeping well
@@ -30,3 +30,22 @@ tags: [routines]
 
 ## Read
 - Patience
+
+# Plan
+
+
+## Communicate
+- Postal Mail
+- Virtual Mailbox
+- Packages
+- Email
+- Messages
+	- Signal
+	- Messages.app
+	- WhatsApp
+	- Fiverr
+	- UpWork
+	- Asana
+- Group Chat
+	- Slack
+- Upload voice notes
