@@ -134,6 +134,7 @@ Successful people and unsuccessful people have the same goals. The goal cannot b
 
 If and when you achieve goals, it’s not because you _set_ them, it’s because you set up the proper system to achieve them. If you want to see results, i.e. achieve your goals, you ought to worry far more about your system than anything else.
 
+We get good at what we practice.
 
 ## Contributors
 - Sourced from "Atomic Habits" by James Clear.
