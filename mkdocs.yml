@@ -59,7 +59,7 @@ nav:
   - 'Blog': index.md
   - 'Docs': 
     - documentation/index.md
-    - 'Product Manager Playbook': "documentation/pm_playbook.md"
+    - 'Product Manager Guide': "documentation/pm_playbook.md"
   - 'Tools': index.md
   - 'Contact': index.md
 
