@@ -1,8 +1,51 @@
-# Cambria Labs Product Manager Playbook
+---
+title: Product Manager Playbook
+description: Cambria Labs Product Manager Playbook to provide managers with information about the roles, tools, patterns, and methods of product management.
+---
+
+???+ toc "Table of Contents"
+
+    - [Welcome, product manager](#welcome-product-manager)
+    - [Cambria Labs' approach to modern product development](#cambria-labs-approach-to-modern-product-development)
+    - [Balanced team roles](#balanced-team-roles)
+    - [Balanced team in practice](#balanced-team-in-practice)
+    - [Team rhythm](#team-rhythm)
+    - [Your role as product manager](#your-role-as-product-manager)
+        - [Understand the product vision](#understand-the-product-vision)
+        - [Craft a compelling product vision](#craft-a-compelling-product-vision)
+        - [Understand the product strategy](#understand-the-product-strategy)
+        - [Plan around outcomes, not features](#plan-around-outcomes-not-features)
+        - [Create an outcome-oriented product roadmap](#create-an-outcome-oriented-product-roadmap)
+            - [Example: HomeWiFi's outcome-oriented product roadmap](#example-homewifis-outcome-oriented-product-roadmap)
+        - [Establish and track against measurable objectives](#establish-and-track-against-measurable-objectives)
+        - [Continually de-risk product direction](#continually-de-risk-product-direction)
+        - [Create a lean canvas](#create-a-lean-canvas)
+        - [The product development cycle](#the-product-development-cycle)
+        - [Test your leap-of-faith assumptions](#test-your-leap-of-faith-assumptions)
+            - [Example: A lean experiment for HomeWiFi](#example-a-lean-experiment-for-homewifi)
+        - [Experiment techniques](#experiment-techniques)
+        - [Define your minimum viable product](#define-your-minimum-viable-product)
+            - [Examples: Minimum viable products](#examples-minimum-viable-products)
+        - [Prioritize features](#prioritize-features)
+            - [Example: HomeWiFi feature prioritization](#example-homewifi-feature-prioritization)
+        - [Manage the backlog](#manage-the-backlog)
+        - [Balance value, quality, and constraints](#balance-value-quality-and-constraints)
+        - [Managing backlogs with Pivotal Tracker](#managing-backlogs-with-pivotal-tracker)
+            - [Story workflow](#story-workflow)
+            - [Plan with stories](#plan-with-stories)
+            - [Write user stories](#write-user-stories)
+                - [Example user stories: good vs. bad](#example-user-stories-good-vs-bad)
+            - [Other story types in Tracker](#other-story-types-in-tracker)
+        - [Run the iteration planning meeting](#run-the-iteration-planning-meeting)
+        - [Decide when to ship software](#decide-when-to-ship-software)
+        - [Help establish a sustainable pace](#help-establish-a-sustainable-pace)
+        - [Communicate effectively](#communicate-effectively)
+    - [Glossary](#glossary)
+    - [Reading List](#reading-list)
 
 ## Welcome, product manager
 
-Working as product manager in a software development team is a multifaceted and challenging role. Cambria Labs is here to help you and your team build products that deliver meaningful value for your users and your business.
+Working as a product manager in a software development team is a multifaceted and challenging role. Cambria Labs is here to help you and your team build products that deliver meaningful value for your users and your business.
 
 Whether you're a seasoned veteran, a first-time product manager, working in an enterprise, or working in a start-up, this playbook will help you get a sense of the roles, tools, patterns, and methods that lay the foundation for a healthy, sustainable, lean, and agile product development practice. Cambria Labs has years of experience enabling clients in these practices.
 
@@ -203,15 +246,15 @@ Product managers, in close collaboration with their teams, help their company sh
 
 |                                                         |                                                    |
 |:--------------------------------------------------------|:---------------------------------------------------|
-| ![Product vision and product strategy](img/image_2.png) | [**Articulate the product vision and product strategy**](#understand-the-product-vision) <br> So that we know why we're undertaking the effort of building the product, and what our plan for doing so is. |
-| ![Outcome-oriented product roadmap](img/image_3.png)    | [**Establish an outcome-oriented product roadmap**](#create-an-outcome-oriented-product-roadmap) <br> So that we have clear outcomes to prioritize our work against, and can communicate to sponsors and stakeholders how the product is likely to evolve over time. |
-| ![Measurable objectives](img/image_4.png)               | [**Establish and track against measurable objectives**](#establish-and-track-against-measurable-objectives) <br> So that we know whether or not we're on the right path. |
-| ![Continually de-risk product direction](img/image_5.png) | [**Continually de-risk product direction**](#continually-de-risk-product-direction) <br> So that we only build the features we should build, based on validated customer problems and business opportunities, and increase the likelihood that the product will be successful in the market. |
-| ![Prioritize features](img/image_6.png)                 | [**Prioritize features**](#prioritize-features) <br> So that we're always working on the most valuable thing. |
-| ![Manage the backlog](img/image_7.png)                  | [**Manage the backlog**](#manage-the-backlog) <br> So that the product team has a shared focus across tactical design and development work. |
-| ![Decide when to ship software](img/image_8.png) | [**Decide when to ship software**](#decide-when-to-ship-software) <br> So that we know why we're undertaking the effort of building the product, and what our plan for doing so is. |
-| ![Help the team maintain a sustainable pace](img/image_9.png) |  [**Help the team maintain a sustainable pace**](#help-establish-a-sustainable-pace) <br> So that we can go fast forever and not burn out or lose motivation. |
-| ![Communicate effectively](img/image_10.png)            | [**Communicate effectively**](#communicate-effectively) <br> So that the product team, stakeholders, and sponsors are all aligned and we maintain momentum. |
+| ![Product vision and product strategy](img/image_2.png){: class="lightbox-skip-img"} | [**Articulate the product vision and product strategy**](#understand-the-product-vision) <br> So that we know why we're undertaking the effort of building the product, and what our plan for doing so is. |
+| ![Outcome-oriented product roadmap](img/image_3.png){: class="lightbox-skip-img"}    | [**Establish an outcome-oriented product roadmap**](#create-an-outcome-oriented-product-roadmap) <br> So that we have clear outcomes to prioritize our work against, and can communicate to sponsors and stakeholders how the product is likely to evolve over time. |
+| ![Measurable objectives](img/image_4.png){: class="lightbox-skip-img"}               | [**Establish and track against measurable objectives**](#establish-and-track-against-measurable-objectives) <br> So that we know whether or not we're on the right path. |
+| ![Continually de-risk product direction](img/image_5.png){: class="lightbox-skip-img"} | [**Continually de-risk product direction**](#continually-de-risk-product-direction) <br> So that we only build the features we should build, based on validated customer problems and business opportunities, and increase the likelihood that the product will be successful in the market. |
+| ![Prioritize features](img/image_6.png){: class="lightbox-skip-img"}                 | [**Prioritize features**](#prioritize-features) <br> So that we're always working on the most valuable thing. |
+| ![Manage the backlog](img/image_7.png){: class="lightbox-skip-img"}                  | [**Manage the backlog**](#manage-the-backlog) <br> So that the product team has a shared focus across tactical design and development work. |
+| ![Decide when to ship software](img/image_8.png){: class="lightbox-skip-img"} | [**Decide when to ship software**](#decide-when-to-ship-software) <br> So that we know why we're undertaking the effort of building the product, and what our plan for doing so is. |
+| ![Help the team maintain a sustainable pace](img/image_9.png){: class="lightbox-skip-img"} |  [**Help the team maintain a sustainable pace**](#help-establish-a-sustainable-pace) <br> So that we can go fast forever and not burn out or lose motivation. |
+| ![Communicate effectively](img/image_10.png){: class="lightbox-skip-img"}            | [**Communicate effectively**](#communicate-effectively) <br> So that the product team, stakeholders, and sponsors are all aligned and we maintain momentum. |
 
 ### Understand the product vision
 
@@ -315,11 +358,11 @@ The product strategy explains **HOW** we'll realize our product vision. It might
 
 Product strategy is about figuring out what product to make such that we achieve one or more goals under conditions of high uncertainty. Consequently, strategy is also about knowing what not to build, what to say no to, and why.
 
-![Product strategy](img/image_11.png){: class="float-right width-30"}
-
 Whether you're part of a large enterprise or a start-up, your product strategy should always be in the service of your product vision, which provides the context for why you're building the product in the first place. The vision is what inspires us and the strategy is what gets us to the vision.
 
 The product strategy covers a set of answers to questions about the path forward:
+
+![Product strategy](img/image_11.png){: class="float-right width-30"}
 
 - Who are your key customers and users?
 - Which problems do you intend to solve for your key customers and users to realize your business objectives?
@@ -868,7 +911,7 @@ At a minimum, the features you decide to build should do the following:
 >
 > STEVE JOBS
 
-### Example: HomeWiFi feature prioritization
+#### Example: HomeWiFi feature prioritization
 
 <div markdown class="flex-column gap-1">
 

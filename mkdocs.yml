@@ -4,6 +4,7 @@ extra_css:
   - css/custom.css
 theme:
   name: material
+  custom_dir: overrides
   palette:
     scheme: slate
     primary: teal
@@ -21,12 +22,20 @@ markdown_extensions:
   - admonition
   - toc:
       title: Table of Contents
+  - pymdownx.details
 
 # Enable Tags
 # ISSUE: Whenever enabled, site search is disabled
 # plugins:
 #  - tags:
 #      tags_file: topics.md 
+plugins:
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+  - glightbox:
+      skip_classes:
+        - lightbox-skip-img
+      auto_caption: true
 extra:
   social:
     - icon: fontawesome/brands/github-alt
