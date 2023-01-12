@@ -241,7 +241,7 @@ A healthy lean and agile team has a strong and consistent rhythm. Each week is p
 
 Product managers, in close collaboration with their teams, help their company ship the right product. Increase your effectiveness in this role by familiarizing yourself with the set of tools, techniques, and practices described in this playbook. They'll help you build products by defining and iterating toward the right outcomes, while continuously validating and iterating toward the right solution in a way that will enable you to be responsive to changing user demands and market realities.
 
-<p class="table_without_header"></p>
+<p class="table_without_header mobile_imgs"></p>
 
 |                                                         |                                                    |
 |:--------------------------------------------------------|:---------------------------------------------------|
@@ -1195,7 +1195,7 @@ Chores, bugs and release markers enable you to capture work that needs to get do
 
 Just like the user story, these story types represent concrete tasks or deliverables. However, because they don't provide direct business or user value, they don't get estimated. (Learn more on this in "[*Run The Iteration Planning Meeting*](#run-the-iteration-planning-meeting).")
 
-<p class="table_without_header"></p>
+<p class="table_without_header mobile_imgs"></p>
 
 |                                                   |                                                   |
 |:--------------------------------------------------|:--------------------------------------------------|
@@ -1205,15 +1205,15 @@ Just like the user story, these story types represent concrete tasks or delivera
 
 **Know your story makers**
 
-<p class="table_without_header"></p>
+<p class="table_without_header mobile_imgs"></p>
 
 |                                     |                                                                          |
 |:------------------------------------|:-------------------------------------------------------------------------|
-| ![User story](img/image_35.png){: class="width-30"} | **User story**: The "who," "what" and "why" of a new feature |
-| ![Story point](img/image_36.png){: class="width-30"} | **Story points**: The estimated relative complexity of a story |
-| ![Chore](img/image_33.png){: class="width-30"} | **Chore**: Tasks that are necessary but don't add direct or obvious user value  |
-| ![Bug](img/image_34.png){: class="width-30"} | **Bug**: Tasks that will resolve unintended behavior            |
-| ![Release](img/image_32.png){: class="width-30"} | **Release**: A project milestone                            |
+| ![User story](img/image_35.png) | **User story**: The "who," "what" and "why" of a new feature |
+| ![Story point](img/image_36.png) | **Story points**: The estimated relative complexity of a story |
+| ![Chore](img/image_33.png) | **Chore**: Tasks that are necessary but don't add direct or obvious user value  |
+| ![Bug](img/image_34.png) | **Bug**: Tasks that will resolve unintended behavior            |
+| ![Release](img/image_32.png) | **Release**: A project milestone                            |
 
 ### Run the iteration planning meeting
 

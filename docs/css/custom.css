@@ -253,3 +253,7 @@ table thead th, table tbody td {
 h1.page_title {
     margin-bottom: 0.25em;
 }
+
+.mobile_imgs + div div.md-typeset__table > table tbody tr > td:nth-child(1) {
+	width: 6rem;
+}
