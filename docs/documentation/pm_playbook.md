@@ -1,15 +1,59 @@
-# Cambria Labs Product Manager Playbook
+---
+title: Product Manager Guide
+description: Cambria Labs Product Manager Playbook to provide managers with information about the roles, tools, patterns, and methods of product management.
+---
+
+??? toc "Table of Contents"
+
+    - [Welcome, product manager](#welcome-product-manager)
+    - [Cambria Labs' approach to modern product development](#cambria-labs-approach-to-modern-product-development)
+    - [Balanced team roles](#balanced-team-roles)
+    - [Balanced team in practice](#balanced-team-in-practice)
+    - [Team rhythm](#team-rhythm)
+    - [Your role as a product manager](#your-role-as-a-product-manager)
+        - [Understand the product vision](#understand-the-product-vision)
+        - [Craft a compelling product vision](#craft-a-compelling-product-vision)
+        - [Understand the product strategy](#understand-the-product-strategy)
+        - [Plan around outcomes, not features](#plan-around-outcomes-not-features)
+        - [Create an outcome-oriented product roadmap](#create-an-outcome-oriented-product-roadmap)
+            - [Example: HomeWiFi's outcome-oriented product roadmap](#example-homewifis-outcome-oriented-product-roadmap)
+        - [Establish and track against measurable objectives](#establish-and-track-against-measurable-objectives)
+        - [Continually de-risk product direction](#continually-de-risk-product-direction)
+        - [Create a lean canvas](#create-a-lean-canvas)
+        - [The product development cycle](#the-product-development-cycle)
+        - [Test your leap-of-faith assumptions](#test-your-leap-of-faith-assumptions)
+            - [Example: A lean experiment for HomeWiFi](#example-a-lean-experiment-for-homewifi)
+        - [Experiment techniques](#experiment-techniques)
+        - [Define your minimum viable product](#define-your-minimum-viable-product)
+            - [Examples: Minimum viable products](#examples-minimum-viable-products)
+        - [Prioritize features](#prioritize-features)
+            - [Example: HomeWiFi feature prioritization](#example-homewifi-feature-prioritization)
+        - [Manage the backlog](#manage-the-backlog)
+        - [Balance value, quality, and constraints](#balance-value-quality-and-constraints)
+        - [Managing backlogs with Pivotal Tracker](#managing-backlogs-with-pivotal-tracker)
+            - [Story workflow](#story-workflow)
+            - [Plan with stories](#plan-with-stories)
+            - [Write user stories](#write-user-stories)
+                - [Example user stories: good vs. bad](#example-user-stories-good-vs-bad)
+            - [Other story types in Tracker](#other-story-types-in-tracker)
+        - [Run the iteration planning meeting](#run-the-iteration-planning-meeting)
+        - [Decide when to ship software](#decide-when-to-ship-software)
+        - [Help establish a sustainable pace](#help-establish-a-sustainable-pace)
+        - [Communicate effectively](#communicate-effectively)
+    - [Glossary](#glossary)
+    - [Reading List](#reading-list)
+    - [Credits & Contributions](#credits--contributions)
 
 ## Welcome, product manager
 
-Working as product manager in a software development team is a multifaceted and challenging role. Cambria Labs is here to help you and your team build products that deliver meaningful value for your users and your business.
+Working as a product manager in a software development team is a multifaceted and challenging role. Cambria Labs is here to help you and your team build products that deliver meaningful value for your users and your business.
 
 Whether you're a seasoned veteran, a first-time product manager, working in an enterprise, or working in a start-up, this playbook will help you get a sense of the roles, tools, patterns, and methods that lay the foundation for a healthy, sustainable, lean, and agile product development practice. Cambria Labs has years of experience enabling clients in these practices.
 
 When partnering with Cambria Labs, our clients are committing to work with collaborators rather than contractors. Together, we build software based on continuous input. Clients maintain full control of product direction, feature prioritization, and release timing. Cambria Labs practitioners do the following:
 
 - Show clients how to continuously keep product and business risk low by identifying risky assumptions, while gathering and analyzing qualitative and quantitative data to help inform product decisions.
-- Help clients balance business goals against both user needs and desires, as well as technical feasibility, so that the team regularly ships features that have an impact.
+- Help clients balance business goals against both user's needs and desires, as well as technical feasibility so that the team regularly ships features that have an impact.
 - Show clients how to set goals and structure regular meetings to ensure fluid communication among developers, designers, stakeholders, and sponsors.
 - Help clients break down big ideas into manageable pieces, establish a reliable way to estimate features, and ensure a predictable cadence of small and frequent releases.
 - Encourage the entire project team to provide regular feedback and self-reflection on process and performance, which will drive continuous improvements
@@ -19,7 +63,7 @@ in efficiency and increase happiness.
 
 **Learn by doing**
 
-We teach by showing, rather than by telling. In the beginning, we'll lead, but will coach you so that you can take over in short order.
+We teach by showing, rather than by telling. In the beginning, we'll lead but will coach you so that you can take over in short order.
 
 **Sit with your team (or, remotely sit with your team)**
 
@@ -51,13 +95,13 @@ Our approach to product development is informed by more than 30 years of experie
 
 Additionally, we apply these philosophies within the structure of a "balanced team."
 
-Cambria Labs didn't invent these philosophies; we have many individuals and teams to thank for sharing and refining these ideas. We have, however, developed our own approach, tools, and platforms to enable these practices. Taking aspects of each philosophy, we combine and apply them using discipline, empathy, humility, curiosity, and a strong bias to action. We'll work closely with you to figure out how to adapt these methodologies for your organization. Our approach is always evolving as we continue to uncover new and better ways of building great software. What follows is a quick primer on product development, which will help you understand how we work.
+Cambria Labs didn't invent these philosophies; we have many individuals and teams to thank for sharing and refining these ideas. We have, however, developed our approach, tools, and platforms to enable these practices. Taking aspects of each philosophy, we combine and apply them using discipline, empathy, humility, curiosity, and a strong bias to action. We'll work closely with you to figure out how to adapt these methodologies for your organization. Our approach is always evolving as we continue to uncover new and better ways of building great software. What follows is a quick primer on product development, which will help you understand how we work.
 
 **Lean startup**
 
-Lean startup is an approach to developing businesses and products in environments with high uncertainty and change.It was created by entrepreneurs Eric Ries and Steve Blank. The two based their ideas on lean manufacturing, which was popularized by Toyota as a means of minimizing waste and maximizing productivity.
+A lean startup is an approach to developing businesses and products in environments with high uncertainty and change. It was created by entrepreneurs Eric Ries and Steve Blank. The two based their ideas on lean manufacturing, which was popularized by Toyota as a means of minimizing waste and maximizing productivity.
 
-Most products fail because they're based on flawed assumptions about user needs. Lean startup emphasizes investigating and validating assumptions around what customers really need and meeting those needs with as little time, effort, and money as possible. Customer feedback is vital during product development. It ensures that we don't build products that customers don't want. The lean startup approach also borrows from the scientific method; it assumes we don't know something to be true unless we gather the evidence to validate our belief. (Source: Eric Ries, The Lean Startup, Crown Publishing, 2011.)
+Most products fail because they're based on flawed assumptions about user needs. Lean startup emphasizes investigating and validating assumptions around what customers need and meeting those needs with as little time, effort, and money as possible. Customer feedback is vital during product development. It ensures that we don't build products that customers don't want. The lean startup approach also borrows from the scientific method; it assumes we don't know something to be true unless we gather evidence to validate our beliefs. (Source: Eric Ries, The Lean Startup, Crown Publishing, 2011.)
 
 **Common practices**
 
@@ -79,11 +123,11 @@ User interviews, personas, scenarios, think-make-check cycles, rapid prototyping
 
 **Agile/XP**
 
-Agile is a set of values and principles that enable teams to develop software with agility. Agile teams are quick, flexible, and responsive to change, without sacrificing quality. Although there are many implementations of this methodology, most use collaborative, cross-functional, and self-organizing teams to deliver software in an incremental and iterative way.
+Agile is a set of values and principles that enable teams to develop software with agility. Agile teams are quick, flexible, and responsive to change, without sacrificing quality. Although there are many implementations of this methodology, most use collaborative, cross-functional, and self-organizing teams to deliver software incrementally and iteratively.
 
 Extreme programming (XP) is a specific set of practices that implement agile values and principles. It was created by Kent Beck, author of Extreme Programming Explained: *Embrace Change* (Addison Wesley, 1999).
 
-XP enables teams to write high-quality software, ship it often and  predictably, and be responsive to change. It's a strategy to help teams go fast, forever. XP is also a system--we only get to experience its full benefits when we implement all of its practices.That's why it's called extreme programming!
+XP enables teams to write high-quality software, ship it often and predictably, and be responsive to change. It's a strategy to help teams go fast, forever. XP is also a system - we only get to experience its full benefits when we implement all of its practices. That's why it's called extreme programming!
 
 **Common practices**
 
@@ -95,16 +139,15 @@ Pair programming, test-driven development (TDD), refactoring, collective code ow
 
 **Balanced team**
 
-Our product teams are small, co-located or remote, and multidisciplinary. They are organized around goals established by the product sponsor(s) and are empowered to define and iterate on solutions that deliver against those goals. They're also empowered to talk to customers, make product decisions, and push code to production. By virtue of sitting next to each other or sharing virtual space, team members constantly communicate and collaborate with one another. Teams are focused on delivering customer value through working software in small, iterative releases, and are self-organizing in that they can adapt common tools and practices to what works best for all members. Communication among team members tends to be informal, favoring spontaneous conversation over lengthy meetings.
+Our product teams are small, co-located or remote, and multidisciplinary. They are organized around goals established by the product sponsor(s) and are empowered to define and iterate on solutions that deliver against those goals. They're also empowered to talk to customers, make product decisions, and push code to production. By sitting next to each other or sharing virtual space, team members constantly communicate and collaborate. Teams are focused on delivering customer value through working software in small, iterative releases, and are self-organizing in that they can adapt common tools and practices to what works best for all members. Communication among team members tends to be informal, favoring spontaneous conversation over lengthy meetings.
 
-The concept behind this approach is what's known as a "balanced team." It was created by a group of passionate agile practitioners who sought to better blend together agile, UX, and other product disciplines. Early proponents of the balanced team concept include Jeff Patton, David Hussman, Desiree Sy, Jared Spool, and Lane Halley. Former Pivotal employees Janice Fraser and Tim McCoy were early participants, and Pivotal Labs hosted one of the first balanced team retreats.
+The concept behind this approach is what's known as a "balanced team." It was created by a group of passionate agile practitioners who sought to better blend agile, UX, and other product disciplines. Early proponents of the balanced team concept include Jeff Patton, David Hussman, Desiree Sy, Jared Spool, and Lane Halley. Former Pivotal employees Janice Fraser and Tim McCoy were early participants, and Pivotal Labs hosted one of the first balanced team retreats.
 
 Though each project varies, the typical balanced team mix includes a Cambria Labs product manager, product designer, and engineer matched with full-time client counterparts. When we work within the construct of a balanced team, we ensure that all of these perspectives blend into and inform each other so that we build products that are desirable, usable, feasible, and viable.
 
 **Common practices**
 
-Shared vision, physical co-location, pairing across functions, scaling
-the team up/down based on what the product needs
+Shared vision, physical co-location, pairing across functions, scaling the team up/down based on what the product needs
 
 ## Balanced team roles
 
@@ -112,11 +155,11 @@ Team makeup and size can vary between product teams. What's important is having 
 
 **Your role as product manager**
 
-The product manager leads a team to discover and deliver a product that creates meaningful value for their company and users. You'll facilitate decision-making in service of shipping successful features. To do so, you'll need to clearly understand who your users are and what they need, what impact the business expects from the product, and who your stakeholders are. You'll also need to collaborate closely with your team.
+The product manager leads a team to discover and deliver a product that creates meaningful value for the company and its users. You'll facilitate decision-making in service of shipping successful features. To do so, you'll need to clearly understand who your users are and what they need, what impact the business expects from the product, and who your stakeholders are. You'll also need to collaborate closely with your team.
 
 **Cambria Labs product manager pair**
 
-In Cambria Labs projects, we pair client product managers with a Cambria Labs product manager who will guide and support the client product manager throughout the project. This pairing partner helps client product managers understand their role on a balanced team and learn how to take a lean/agile approach to product management. By applying the "I do, we do, you do" approach over the course of the project, client product managers will gradually take the lead, with the Cambria Labs partner transitioning to a supporting role.
+In Cambria Labs projects, we pair client product managers with a Cambria Labs product manager who will guide and support the client product manager throughout the project. This pairing partner helps client product managers understand their role on a balanced team and learn how to take a lean/agile approach to product management. By applying the "I do, we do, you do" approach throughout the project, client product managers will gradually take the lead, with the Cambria Labs partner transitioning to a supporting role.
 
 **Other roles on your team**
 
@@ -132,7 +175,7 @@ One engineer is designated as the anchor. The anchor ensures that the team makes
 
 **Designer**
 
-Designers deliver value in the form of design decisions. Their job is to deeply understand the users in order to define solutions that are desirable, useful, and usable. You'll work closely with your designers, pairing on user research to validate critical user and solution assumptions before adding development work to the backlog.
+Designers deliver value in the form of design decisions. Their job is to deeply understand the users to define solutions that are desirable, useful, and usable. You'll work closely with your designers, pairing on user research to validate critical user and solution assumptions before adding development work to the backlog.
 
 **Delivery lead**
 
@@ -156,8 +199,7 @@ Lean startup, user-centered design, and agile/XP help us identify the best answe
 
 **Desirability: Will it solve users' problems?**
 
-The product should be something that users want and that solves real
-problems. A designer's primary question is, "How is the user affected?" More than anyone else on the team, designers help us answer these fundamental questions: "Is this a problem worth solving for users?" and, "Does this design solve the problem?"
+The product should be something that users want and that solves real problems. A designer's primary question is, "How is the user affected?" More than anyone else on the team, designers help us answer these fundamental questions: "Is this a problem worth solving for users?" and, "Does this design solve the problem?"
 
 !!! caution
 
@@ -177,7 +219,7 @@ Product implementation has to be feasible and robust. Engineers' primary questio
 
 !!! caution
 
-    It doesn't help for engineers to come up with feasible solutions that don't solve problems for users; that's not developing good software. And if we home in on a solution that's desirable and viable yet not feasible, we've failed.
+    It doesn't help engineers to come up with feasible solutions that don't solve problems for users; that's not developing good software. And if we home in on a solution that's desirable and viable yet not feasible, we've failed.
 
 ## Team rhythm
 
@@ -195,23 +237,23 @@ A healthy lean and agile team has a strong and consistent rhythm. Each week is p
 | **Sponsor and stakeholder update** | Share the team's progress in terms of validated learning and working software, demo the working product, raise blockers, give an update against KPIs, and share what the team plans next. | - Prepare the agenda with your anchor and designer. <br> - Use your product roadmap to explain what the team is working on and why. <br> - Frame your demo in the context of the outcomes defined in your product roadmap. <br> - Speak to the empirical data guiding the team's decisions. <br> - Speak to your assumptions, both those you have tested and those you plan to test soon. <br> - If blocked, explain what the team needs, why, and by when.|
 | **Retro (short for "Retrospective")** | Create a safe space for the team to celebrate the past week's successes, discuss points of confusion, and reflect on challenges | - Openly and honestly share your experiences from the week. <br> - Dig deeper on items raised by others to understand root causes |
 
-## Your role as product manager
+## Your role as a product manager
 
 Product managers, in close collaboration with their teams, help their company ship the right product. Increase your effectiveness in this role by familiarizing yourself with the set of tools, techniques, and practices described in this playbook. They'll help you build products by defining and iterating toward the right outcomes, while continuously validating and iterating toward the right solution in a way that will enable you to be responsive to changing user demands and market realities.
 
-<p class="table_without_header"></p>
+<p class="table_without_header mobile_imgs"></p>
 
 |                                                         |                                                    |
 |:--------------------------------------------------------|:---------------------------------------------------|
-| ![Product vision and product strategy](img/image_2.png) | [**Articulate the product vision and product strategy**](#understand-the-product-vision) <br> So that we know why we're undertaking the effort of building the product, and what our plan for doing so is. |
-| ![Outcome-oriented product roadmap](img/image_3.png)    | [**Establish an outcome-oriented product roadmap**](#create-an-outcome-oriented-product-roadmap) <br> So that we have clear outcomes to prioritize our work against, and can communicate to sponsors and stakeholders how the product is likely to evolve over time. |
-| ![Measurable objectives](img/image_4.png)               | [**Establish and track against measurable objectives**](#establish-and-track-against-measurable-objectives) <br> So that we know whether or not we're on the right path. |
-| ![Continually de-risk product direction](img/image_5.png) | [**Continually de-risk product direction**](#continually-de-risk-product-direction) <br> So that we only build the features we should build, based on validated customer problems and business opportunities, and increase the likelihood that the product will be successful in the market. |
-| ![Prioritize features](img/image_6.png)                 | [**Prioritize features**](#prioritize-features) <br> So that we're always working on the most valuable thing. |
-| ![Manage the backlog](img/image_7.png)                  | [**Manage the backlog**](#manage-the-backlog) <br> So that the product team has a shared focus across tactical design and development work. |
-| ![Decide when to ship software](img/image_8.png) | [**Decide when to ship software**](#decide-when-to-ship-software) <br> So that we know why we're undertaking the effort of building the product, and what our plan for doing so is. |
-| ![Help the team maintain a sustainable pace](img/image_9.png) |  [**Help the team maintain a sustainable pace**](#help-establish-a-sustainable-pace) <br> So that we can go fast forever and not burn out or lose motivation. |
-| ![Communicate effectively](img/image_10.png)            | [**Communicate effectively**](#communicate-effectively) <br> So that the product team, stakeholders, and sponsors are all aligned and we maintain momentum. |
+| ![Product vision and product strategy](img/image_2.png){: class="lightbox-skip-img"} | [**Articulate the product vision and product strategy**](#understand-the-product-vision) <br> So that we know why we're undertaking the effort of building the product, and what our plan for doing so is. |
+| ![Outcome-oriented product roadmap](img/image_3.png){: class="lightbox-skip-img"}    | [**Establish an outcome-oriented product roadmap**](#create-an-outcome-oriented-product-roadmap) <br> So that we have clear outcomes to prioritize our work against, and can communicate to sponsors and stakeholders how the product is likely to evolve over time. |
+| ![Measurable objectives](img/image_4.png){: class="lightbox-skip-img"}               | [**Establish and track against measurable objectives**](#establish-and-track-against-measurable-objectives) <br> So that we know whether or not we're on the right path. |
+| ![Continually de-risk product direction](img/image_5.png){: class="lightbox-skip-img"} | [**Continually de-risk product direction**](#continually-de-risk-product-direction) <br> So that we only build the features we should build, based on validated customer problems and business opportunities, and increase the likelihood that the product will be successful in the market. |
+| ![Prioritize features](img/image_6.png){: class="lightbox-skip-img"}                 | [**Prioritize features**](#prioritize-features) <br> So that we're always working on the most valuable thing. |
+| ![Manage the backlog](img/image_7.png){: class="lightbox-skip-img"}                  | [**Manage the backlog**](#manage-the-backlog) <br> So that the product team has a shared focus across tactical design and development work. |
+| ![Decide when to ship software](img/image_8.png){: class="lightbox-skip-img"} | [**Decide when to ship software**](#decide-when-to-ship-software) <br> So that we know why we're undertaking the effort of building the product, and what our plan for doing so is. |
+| ![Help the team maintain a sustainable pace](img/image_9.png){: class="lightbox-skip-img"} |  [**Help the team maintain a sustainable pace**](#help-establish-a-sustainable-pace) <br> So that we can go fast forever and not burn out or lose motivation. |
+| ![Communicate effectively](img/image_10.png){: class="lightbox-skip-img"}            | [**Communicate effectively**](#communicate-effectively) <br> So that the product team, stakeholders, and sponsors are all aligned and we maintain momentum. |
 
 ### Understand the product vision
 
@@ -219,7 +261,7 @@ The product vision describes the future we're trying to create through our produ
 
 **Vision**
 
-The product vision describes the **WHAT** and the **WHY**. It's highly aspirational and long term, and as such, realizing it may take several years (approximately five or more).
+The product vision describes the **WHAT** and the **WHY**. It's highly aspirational and long-term, and as such, realizing it may take several years (approximately five or more).
 
 **The product vision is your true north**
 
@@ -233,15 +275,14 @@ Your product vision should communicate:
 
 **Why you need a product vision**
 
-Ideation and experimentation alone will not enable us to create great products. Without a vision, we're left to aimlessly iterate towards some unknown destination. If we don't know where we want to go, how
-will we know if we're getting there?
+Ideation and experimentation alone will not enable us to create great products. Without a vision, we're left to aimlessly iterate toward some unknown destination. If we don't know where we want to go, how will we know if we're getting there?
 
 Your product vision helps tell the story of your product. It explains
 what you hope to achieve and sets the direction for where you're going. A compelling product vision should accomplish the following:
 
 - Help others understand your product and why it matters.
 - Align, guide, and motivate everyone involved to make the product successful.
-- Create focus and enable effective collaboration in the midst of rapidly changing conditions.
+- Create focus and enable effective collaboration amid rapidly changing conditions.
 
 **Who defines the product vision?**
 
@@ -249,13 +290,13 @@ Depending on how your organization is structured, your product vision might be d
 
 **Clearly display your product vision**
 
-Post your product vision somewhere in your workspace where it's clearly visible to everyone! That way, it'll be a constant reminder of what you're working towards.
+Post your product vision somewhere in your workspace where it's visible to everyone! That way, it'll be a constant reminder of what you're working towards.
 
 **Examples:**
 
-:   - **Amazon**: Our vision is to be earth's most customer-centric company; to build a place where people can come to find and discover anything they might want to buy online.
-    - **LinkedIn**: To connect the world's professionals to make them more productive and successful.
-    - **Spotify**: To enable people to have music moments everywhere.
+:   - **Amazon:** Our vision is to be earth's most customer-centric company; to build a place where people can come to find and discover anything they might want to buy online.
+    - **LinkedIn:** To connect the world's professionals to make them more productive and successful.
+    - **Spotify:** To enable people to have music moments everywhere.
 
 ### Craft a compelling product vision
 
@@ -265,11 +306,11 @@ Getting to the right vision statement for your product can be challenging and ta
 
 **Keep it short**
 
-:   It's important that your product vision is easy to understand, remember, and communicate. Try to keep it to one or two sentences.
+:   Your product vision must be easy to understand, remember, and communicate. Try to keep it to one or two sentences.
 
 **Align it with your company vision**
 
-:   Your vision should clearly communicate how your product will contribute to your company's larger purpose. If your company has one product, then your company vision also makes for a great product vision. If your company has a portfolio of many products, then you should align your product vision with your particular business unit or group's reason for being.
+:   Your vision should communicate how your product will contribute to your company's larger purpose. If your company has one product, then your company vision also makes for a great product vision. If your company has a portfolio of many products, then you should align your product vision with your particular business unit or group's reason for being.
 
 **Focus on the user**
 
@@ -277,7 +318,7 @@ Getting to the right vision statement for your product can be challenging and ta
 
 **Avoid specific solutions**
 
-:   Your vision should describe the positive impact your product is intended to have. It shouldn't explain what your product is or how it works---you'll figure those things out through your product strategy and product roadmap. If your vision makes any statements about particular features or technology choices, it will limit you later on, preventing you from being flexible to new information and changing circumstances.
+:   Your vision should describe the positive impact your product is intended to have. It shouldn't explain what your product is or how it works-you'll figure those things out through your product strategy and product roadmap. If your vision makes any statements about particular features or technology choices, it will limit you later on, preventing you from being flexible to new information and changing circumstances.
 
 **Make it big and ambitious**
 
@@ -285,7 +326,7 @@ Getting to the right vision statement for your product can be challenging and ta
 
 **Be inspirational**
 
-:   The product vision should be something that people care about and can connect with. If it clearly states the benefits you're looking to create for others, you're already halfway there. A vision that matters will motivate the team when things get tough, make people excited to  work on the product, help attract new team members, and connect your product with the right customers.
+:   The product vision should be something that people care about and can connect with. If it clearly states the benefits you're looking to create for others, you're already halfway there. A vision that matters will motivate the team when things get tough, make people excited to work on the product, help attract new team members, and connect your product with the right customers.
 
 **Be unique**
 
@@ -315,11 +356,11 @@ The product strategy explains **HOW** we'll realize our product vision. It might
 
 Product strategy is about figuring out what product to make such that we achieve one or more goals under conditions of high uncertainty. Consequently, strategy is also about knowing what not to build, what to say no to, and why.
 
-![Product strategy](img/image_11.png){: class="float-right width-30"}
-
 Whether you're part of a large enterprise or a start-up, your product strategy should always be in the service of your product vision, which provides the context for why you're building the product in the first place. The vision is what inspires us and the strategy is what gets us to the vision.
 
 The product strategy covers a set of answers to questions about the path forward:
+
+![Product strategy](img/image_11.png){: class="float-right width-30"}
 
 - Who are your key customers and users?
 - Which problems do you intend to solve for your key customers and users to realize your business objectives?
@@ -330,13 +371,13 @@ The product strategy covers a set of answers to questions about the path forward
 
 **Strategy is about making choices around where we should invest**
 
-As product managers, we're inundated with requests and ideas. How do we know what to say no to? We can't do everything, because the time, money, and resources we have available to invest in our product are finite. Additionally, a product that does everything for everyone will do nothing well for anyone---and by the time we launch it, our competition may have raised the stakes beyond our grasp.
+As product managers, we're inundated with requests and ideas. How do we know what to say no to? We can't do everything, because the time, money, and resources we have available to invest in our product are finite. Additionally, a product that does everything for everyone will do nothing well for anyone-and by the time we launch it, our competition may have raised the stakes beyond our grasp.
 
-We need some way of knowing that we're working on the right things and are making good progress towards our vision. A product strategy helps us identify the right objectives and decide where to invest to best achieve those objectives.
+We need some way of knowing that we're working on the right things and are making good progress toward our vision. A product strategy helps us identify the right objectives and decide where to invest to best achieve those objectives.
 
 **Who defines the product strategy?**
 
-It might be you, or it might be your management team---your group/business unit director, or your VP of product.
+It might be you, or it might be your management team-your group/business unit director or your VP of product.
 
 > "The product strategy is our sequence of products we plan to deliver on the path to realizing the vision."
 >
@@ -344,32 +385,32 @@ It might be you, or it might be your management team---your group/business unit 
 
 !!! action
 
-    Work to articulate and define your product strategy to realize your product vision. Make sure product strategy is shared with your team and accessible so they can see and refer to it regularly.
+    Work to articulate and define your product strategy to realize your product vision. Make sure the product strategy is shared with your team and accessible so they can see and refer to it regularly.
 
 ### Plan around outcomes, not features
 
-Your roadmap communicates how you intend to realize your strategy. It aligns the product work to overarching business goals and helps communicate the current and future state of your product.
+Your roadmap communicates how you intend to realize your strategy. It aligns the product work with overarching business goals and helps communicate the current and future state of your product.
 
 **Roadmaps facilitate alignment and cross-team coordination**
 
-Your roadmap might be your most important communication tool as a product manager. It creates visibility into your work for people outside of your immediate product team. It helps product sponsors, stakeholders like sales, marketing, and customer support, and other product teams understand your product vision, your goals, and the steps you intend to take to achieve those goals.
+Your roadmap might be your most important communication tool as a product manager. It creates visibility into your work for people outside of your immediate product team. It helps product sponsors, and stakeholders like sales, marketing, customer support, and other product teams understand your product vision, your goals, and the steps you intend to take to achieve those goals.
 
-You can and should use your roadmap to help stakeholders, collaborators, and product sponsors understand what's coming up next and to coordinate joint efforts and dependencies with other teams. By clearly communicating your goals and priorities, you'll help surface important conversations early and keep the product work aligned with the needs and priorities of the business.
+You can and should use your roadmap to help stakeholders, collaborators, and product sponsors understand what's coming up next and coordinate joint efforts and dependencies with other teams. By clearly communicating your goals and priorities, you'll help surface important conversations early and keep the product work aligned with the needs and priorities of the business.
 
 **Be stubborn on vision and flexible on details**
 
 If you've seen a product roadmap before, chances are you've seen a
 comprehensive plan spanning several years, with detailed feature specs, timelines, work estimates, and ROI predictions.
 
-Lean and agile product teams approach product planning differently. No plan survives its first encounter with reality. We learn more from building and releasing features than from planning. Additionally, we reduce risk in our deployments by deploying incrementally, with smaller net changes. Remember, we work in build-measure-learn cycles! Therefore, we should spread our planning over the course of the project instead of front-loading our work with detailed plans.
+Lean and agile product teams approach product planning differently. No plan survives its first encounter with reality. We learn more from building and releasing features than from planning. Additionally, we reduce risk in our deployments by deploying incrementally, with smaller net changes. Remember, we work in build-measure-learn cycles! Therefore, we should spread our planning throughout the project instead of front-loading our work with detailed plans.
 
 What matters is that we get to the right place in the end, not that we follow the exact path we envisioned when we set out on our journey. Rather than trying to optimize for predictability in an inherently unpredictable world, we optimize for learning and responding to change as quickly and cheaply as possible. With the product vision as our true north, we articulate a high-level direction for getting to that vision (our product strategy) and define a plan for our immediate next steps (our product roadmap). As we move forward and learn more than what we knew when we started, we refine and adjust our roadmap accordingly.
 
 **Outcomes matter more than features**
 
-The roadmap should emphasize the results we want to realize--like improved product and business metrics--rather than the features we believe should be part of our product. This approach creates agreement on what success looks like while enabling us to be flexible in our solution. Being outcome-oriented enables us to iterate towards the best solution as we learn more about the market, our customers and users, and what's technically feasible.
+The roadmap should emphasize the results we want to realize-like improved product and business metrics rather than the features we believe should be part of our product. This approach creates agreement on what success looks like while enabling us to be flexible in our solution. Being outcome-oriented enables us to iterate toward the best solution as we learn more about the market, our customers and users, and what's technically feasible.
 
-In addition to focusing us on the impact we want to have through our product, an outcome-based approach to planning helps us do the following:
+In addition to focusing on the impact we want to have through our product, an outcome-based approach to planning helps us do the following:
 
 - Create a shared understanding of why we're building the product.
 - Create alignment among stakeholders, sponsors, and the product team.
@@ -379,23 +420,23 @@ In addition to focusing us on the impact we want to have through our product, an
 
 ### Create an outcome-oriented product roadmap
 
-Your product roadmap describes how your product is likely to evolve over time.
+Your product roadmap describes how your product is likely to evolve.
 
 **Work backwards from your vision and strategy**
 
-Your roadmap should consist of sequential goals--your strategy--that help build towards your vision. To define your goals, identify the key challenges you need to overcome first. Also look at any known strategic outcomes that have been defined by the business. Outcomes are the important and measurable impacts we want to create for our customers and our business, like increased market share, more paying customers, or less tech debt.
+Your roadmap should consist of sequential goal - your strategy - that helps build toward your vision. To define your goals, identify the key challenges you need to overcome first. Also, look at any known strategic outcomes that have been defined by the business. Outcomes are the important and measurable impacts we want to create for our customers and our business, like increased market share, more paying customers, or less tech debt.
 
 You should have clarity on the following:
 
 - The problems that need to be solved
-- How you intend to solve them
+- How do you intend to solve them
 - How you'll know you've solved them
 
 **Identify the work that needs to get done first**
 
 Once you know your business goals, capture your assumptions about how you might reach those goals. You probably want to identify and validate your assumptions about what customer problems you need to solve, the features that solve those problems, how you might design and implement those features, the business value the solution would deliver, and possibly also how you'd market and operationalize the product.
 
-When you prioritize assumptions to validate product work to execute on, ask yourself the following:
+When you prioritize assumptions to validate product work to execute, ask yourself the following:
 
 - What dependencies do you need to solve first?
 - What do you need to learn first? This will help you create a list of learning objectives, features, and activities you believe will help make an impact against your business's strategic objectives.
@@ -404,19 +445,19 @@ When you prioritize assumptions to validate product work to execute on, ask your
 
 **Plan across three horizons**
 
-To communicate the rough order of your priorities, organize your roadmap into three time horizons:
+To communicate the rough order of your priorities, organize your roadmap into three-time horizons:
 
 - Current: This is work you're doing now.
 - Near term: This is work coming up soon.
 - Future: This is work you're thinking of doing but need to research more.
 
-It's most important to have clarity on your first few goals. Your roadmap will evolve and change over time, wand the further out a goal is, the more it's likely to change before you get to it.
+It's most important to have clarity on your first few goals. Your roadmap will evolve and change over time, and the further out a goal is, the more it's likely to change before you get to it.
 
 **Roadmap design principles**
 
 1. Communicate the direction you plan to go in to realize your vision.
 2. Assume uncertainty and change; optimize for learning and responding.
-3. Frame the work around desired outcomes, not outputs.
+3. Frame the workaround desired outcomes, not outputs.
 4. Make sure your roadmap is easy to update and share.
 
 !!! action
@@ -466,7 +507,7 @@ To know whether we're on the right track to deliver on our product goals, we nee
 
 **Goals change throughout the product lifecycle**
 
-Goals have a long time frame, articulate a high-level outcome we strive toward, and may not be directly tangible or measurable. They're our desired outcomes and are often strategic in nature, such as "increase sales" or "keep customers happy." Your goals will likely depend on what stage you're at in your project and with your product, which in turn will determine what question(s) you're looking to answer. Early on in the product lifecycle, we seek to validate a product. Later on, when we have a validated product, we look to optimize our business model as much as possible.
+Goals have a long time frame, articulate a high-level outcome we strive toward, and may not be directly tangible or measurable. They're our desired outcomes and are often strategic, such as "increase sales" or "keep customers happy." Your goals will likely depend on what stage you're at in your project and with your product, which in turn will determine what question(s) you're looking to answer. Early on in the product lifecycle, we seek to validate a product. Later on, when we have a validated product, we look to optimize our business model as much as possible.
 
 **Objectives make goals more achievable**
 
@@ -474,21 +515,21 @@ Objectives are the specific, measurable, achievable, and tangible actions we tak
 
 **Clear goals and objectives help minimize waste and maximize value**
 
-It's important that we have complete clarity on why we invest time in various activities, such as talking to customers, exploring technology X, or building feature Y. Everything we spend time, money, and effort on tries to help us realize an important objective.
+We must have complete clarity on why we invest time in various activities, such as talking to customers, exploring technology X, or building feature Y. Everything we spend time, money, and effort on tries to help us realize an important objective.
 
 **Metrics enable us to track progress**
 
-Metrics are numbers that define standard measurements that are important to us. Metrics that help us assess how well we're doing against key business objectives are called key performance indicators (KPI). It's important to take note of your baseline metrics beforemmaking any changes so that you can compare the before and after or run split tests.
+Metrics are numbers that define standard measurements that are important to us. Metrics that help us assess how well we're doing against key business objectives are called key performance indicators (KPIs). It's important to take note of your baseline metrics before making any changes so that you can compare the before and after or run split tests.
 
 **Beware of vanity metrics**
 
 Good metrics are actionable, which means they do one or more of the following:
 
 - They tie back to specific and repeatable tasks that you can improve upon, and to your product and business goals.
-- They're expressed as a ratio of two things, like the percentage ofusers who make a purchase.
+- They're expressed as a ratio of two things, like the percentage of users who make a purchase.
 - They have a time component, which enables you to see change over time so that you know whether you need to take action.
 
-Vanity metrics are numbers that tell us about the current state and often make us feel great because they are big, but offer no insight into how we got to where we are or what to do next. Examples include total number of visitors and total number of downloads.
+Vanity metrics are numbers that tell us about the current state and often make us feel great because they are big, but offer no insight into how we got to where we are or what to do next. Examples include the total number of visitors and the total number of downloads.
 
 **Tying it all together**
 
@@ -513,7 +554,7 @@ Vanity metrics are numbers that tell us about the current state and often make u
 
 !!! action
 
-    Define and add Goals, SMART objectives, and KPI at each time horizon of your outcome-oriented roadmap. This will help the team focus their efforts appropriately.
+    Define and add Goals, SMART objectives, and KPIs at each time horizon of your outcome-oriented roadmap. This will help the team focus their efforts appropriately.
 
 ### Continually de-risk product direction
 
@@ -521,7 +562,7 @@ We'll have many ideas for our product. How do we know which ones are good and wh
 
 **Untested assumptions create risk**
 
-Before executing on product ideas, teams should clarify their thought process and test their ideas so that they move forward with confidence. An untested assumption is something that a team believes to be true without corroborating evidence. Moving ahead without validation is risky for the team because it could lead to wasted effort. We need to answer some important questions before we're ready to build a product.
+Before executing product ideas, teams should clarify their thought process and test their ideas so that they move forward with confidence. An untested assumption is something that a team believes to be true without corroborating evidence. Moving ahead without validation is risky for the team because it could lead to wasted effort. We need to answer some important questions before we're ready to build a product.
 
 **Uncover risks with these questions**
 
@@ -553,7 +594,7 @@ Before executing on product ideas, teams should clarify their thought process an
 - Do we have a clear shared focus, so that we can move quickly and do the right thing?
 - Do we have the right skills and perspectives available and access to all the inputs we need to make good decisions?
 
-Our initial attempts to answer these questions are assumptions until proven valid through empirical data. It's when we make product decisions based on assumptions--rather than on careful analysis of data--that we accumulate risk.
+Our initial attempts to answer these questions are assumptions until proven valid through empirical data. It's when we make product decisions based on assumptions rather than on careful analysis of data that we accumulate risk.
 
 **How do we de-risk our product?**
 
@@ -581,16 +622,16 @@ The lean canvas was developed to help entrepreneurs define new products. It can 
 
 **Components of a lean canvas**
 
-A lean canvas consists of a number of key components:
+A lean canvas consists of several key components:
 
-- **Problem**: Our customers' top three underserved or unaddressed needs
-- **Solution**: The top three features we believe will address our customers' problem
-- **Key metrics**: The key activities we measure
-- **Unique value proposition**: A clear and concise message that states how we're unique and worth engaging with
-- **Unfair advantage**: Something we have that can't be easily bought or copied
+- **Problem:** Our customers' top three underserved or unaddressed needs
+- **Solution:** The top three features we believe will address our customers' problem
+- **Key metrics:** The key activities we measure
+- **Unique value proposition:** A clear and concise message that states how we're unique and worth engaging with
+- **Unfair advantage:** Something we have that can't be easily bought or copied
 - **Channels**: Our path to our customers
-- **Customer segments**: Our target customers
-- **Cost structure and revenue streams**: How we plan to spend and make money
+- **Customer segments:** Our target customers
+- **Cost structure and revenue streams:** How we plan to spend and make money
 
 ![Components of a lean canvas](img/image_12b.png)
 
@@ -602,11 +643,11 @@ We use a "build-measure-learn" feedback cycle to continuously turn uncertainties
 
 **Learn from data analysis whether to pivot or persevere** <br> ACTIVITIES:
 
-Validate or invalidate the riskiest assumptions about personas, choose the top problems to solve review existing soltions, test the desirability of a solution, determine the feasability of a solution, assess the viability of the product, review the sustainability of the business model, optimize that business model
+Validate or invalidate the riskiest assumptions about personas, choose the top problems to solve review existing solutions, test the desirability of a solution, determine the feasibility of a solution, assess the viability of the product, review the sustainability of the business model, optimize that business model
 
 **Build small and simple tests to collect metrics** <br> ACTIVITIES:
 
-Interview scripts, value propositions, prototypes, minumum viable products, usability tests
+Interview scripts, value propositions, prototypes, minimum viable products, usability tests
 
 **Measure test results** <br> ACTIVITIES:
 
@@ -639,9 +680,9 @@ Hypothesis-driven product management is the practice of treating the development
 
 These are the riskiest assumptions we make about our idea; if we get them wrong, our product will fail. Our riskiest assumptions should align with the business outcomes or product goals we're working toward. By identifying our riskiest assumptions early and testing them through experiments, we dramatically reduce the uncertainty associated with our product ideas. Instead of trying to get it right from the start, we try to get it right one small piece at a time. We test our risky assumptions systematically in order of potential impact:
 
-- **Problem/solution fit**: Have we found a problem worth solving? Can we solve it?
-- **Product/market fit**: Have we built something the market wants?
-- **Scale**: Have we found a sustainable business model?
+- **Problem/solution fit:** Have we found a problem worth solving? Can we solve it?
+- **Product/market fit:** Have we built something the market wants?
+- **Scale:** Have we found a sustainable business model?
 
 **Experiments test our assumptions**
 
@@ -649,9 +690,9 @@ A lean experiment is the smallest experiment we can run to quickly test our assu
 
 The **hypothesis** is a falsifiable version of our assumption. Remember to make sure you're only testing one variable in each hypothesis; otherwise, you won't get reliable data.
 
-The **test** is how we intend to validate our hypothesis, proving it to be true or false. 
+The **test** is how we intend to validate our hypothesis, proving it to be true or false.
 
-The **validation criteria** is the evidence we need to consider the hypothesis true.
+The **validation criteria** are the evidence we need to consider the hypothesis true.
 
 **Experiment template**
 
@@ -677,7 +718,7 @@ You need to determine how much evidence is enough for you to consider an assumpt
 
 #### Example: A lean experiment for HomeWiFi
 
-HomeWiFi has identified an initial set of leap-of-faith assumptions. It decides to test the following assumption first because it believes this assumption poses the greatest risk to the success of the installer dashboard, if proven invalid.
+HomeWiFi has identified an initial set of leap-of-faith assumptions. It decides to test the following assumption first because it believes this assumption poses the greatest risk to the success of the installer dashboard if proven invalid.
 
 **Leap-of-faith assumption: Customers feel comfortable sharing ownership of their networks with their installers**
 
@@ -686,7 +727,7 @@ Installers currently use a customer-facing app to install new Wi-Fi networks. Th
 Because the installer accesses private network data without receiving explicit permission from the customer, however, a big privacy issue is
 created.
 
-In order to give installers what they need to provide the best possible service-reliable access to the customer's network-while also giving the customer what they need to feel safe regarding who has access to their data-the ability to grant and revoke network access--HomeWiFi must validate its assumption that customers are willing to share network ownership with their installer.
+To give installers what they need to provide the best possible service - reliable access to the customer's network - while also giving the customer what they need to feel safe regarding who has access to their data-the ability to grant and revoke network access - HomeWiFi must validate its assumption that customers are willing to share network ownership with their installer.
 
 **HomeWiFi plans to test this assumption twice before building the new installer dashboard app. It will first test it without building any software at all (Lean experiment 1). Assuming the first experiment passes its validation criteria, HomeWiFi will run a second experiment in which it builds a new feature in the consumer app (Lean experiment 2). These experiments will enable HomeWiFi to test a core assumption relatively quickly and cheaply.**
 
@@ -697,7 +738,7 @@ In order to give installers what they need to provide the best possible service-
 
 **Hypothesis**
 
-We believe that giving homeowners the ability to share network access will result in an increase of network ownership transfers from homeowner to installer.
+We believe that giving homeowners the ability to share network access will increase network ownership transfers from the homeowner to the installer.
 
 **Test**
 
@@ -705,7 +746,7 @@ We'll continue to use the consumer app to install new customers' networks, and w
 
 **Validation criteria**
 
-We'll know that our hypothesis is valid if 90 percent of customers agree to transfer network ownership to the installer during network installation.
+We'll know that our hypothesis is valid if 90 percent of customers agree to transfer network ownership to the installer during the network installation.
 </div>
 
 <div markdown class="flex-1">
@@ -713,7 +754,7 @@ We'll know that our hypothesis is valid if 90 percent of customers agree to tran
 
 **Hypothesis**
 
-We believe that giving homeowners the ability to share and revoke network access will result in an increase of network ownership transfers from homeowner to installer.
+We believe that giving homeowners the ability to share and revoke network access will increase network ownership transfers from the homeowner to the installer.
 
 **Test**
 
@@ -721,7 +762,7 @@ We'll enable customers to receive and approve/reject ownership transfer requests
 
 **Validation criteria**
 
-We'll know that our hypothesis is valid if 90 percent of customers transfer their network ownership to their installer during network installation and 75 percent of customers maintain shared network ownership with their installer one month post-installation.
+We'll know that our hypothesis is valid if 90 percent of customers transfer their network ownership to their installer during network installation and 75 percent of customers maintain shared network ownership with their installer one-month post-installation.
 </div>
 
 </div>
@@ -739,10 +780,10 @@ There are many types of experiments we can conduct to test our hypotheses. Which
 
 These interviews help us validate the following assumptions:
 
-- What our customers' problems are
-- How they want to solve those problems
+- What are our customers' problems are
+- How do they want to solve those problems
 - What's standing in their way
-- Who our customer segments are
+- Who are our customer segments are
 - Who within those segments are early adopters
 
 **Low-fidelity prototypes**
@@ -786,7 +827,7 @@ The minimum viable product (MVP) is an experiment designed to test our product's
 
 **MVP**
 
-The MVP is the most misunderstood concept in lean product development. Its purpose is to help us learn whether we should continue to build the product or not. Therefore, an MVP is not a delivery milestone; it's a learning milestone.
+MVP is the most misunderstood concept in lean product development. Its purpose is to help us learn whether we should continue to build the product or not. Therefore, an MVP is not a delivery milestone; it's a learning milestone.
 
 **The MVP is a learning milestone**
 
@@ -800,7 +841,7 @@ Conversely, here's what an MVP isn't:
 - A proof of concept
 - A minimum set of features without an accompanying set of business goals and KPI
 - A complete product for internal demonstration purposes
-- Always software
+- Always Software
 
 **The MVP is often not more than a few features that together help the user do something valuable. We learn and iterate on the product not by building one component of the value proposition at a time, but by delivering thin slices of the full value proposition. From that starting point, we then build out the product experience with increasing increments of value.**
 
@@ -814,7 +855,7 @@ Conversely, here's what an MVP isn't:
 
 [![Dropbox's explainer video](img/image_18.png){: class="float-right"}](https://www.youtube.com/watch?v=w4eTR7tci6A)
 
-Dropbox is an extremely popular service for hosting and sharing files that's used by 500 million people and 200,000 businesses. Dropbox's early leap-of- faith assumption was that file synchronization was a problem most people didn't know that they had, but if Dropbox could provide a superior customer experience, people would try it. The team faced two challenges in testing this assumption:
+Dropbox is an extremely popular service for hosting and sharing files that are used by 500 million people and 200,000 businesses. Dropbox's early leap-of-faith assumption was that file synchronization was a problem most people didn't know that they had, but if Dropbox could provide a superior customer experience, people would try it. The team faced two challenges in testing this assumption:
 
 - At the time, Dropbox as a concept was difficult for customers to understand because there was nothing else quite like it available.
 - Dropbox is a highly sophisticated technical product, which made it impossible to demonstrate as working software without actually building it.
@@ -850,7 +891,7 @@ Feature ideas can come from a variety of places:
 - Your customers
 - Your competitors
 
-As product managers, we must filter these ideas. It's not possible to do everything, and it's even less possible to do everything at the same time. We need to make sure the team is only working on features that should be built, and always in a prioritized order: from highest value to next-highest value and so forth. That means we must learn when (and how) to say "no" in addition to when to say "yes." Unless you know when to say "no," you'll end up with a lot of tangentially related features, a complex product that no one is really happy with,mand an overworked product team.
+As product managers, we must filter these ideas. It's not possible to do everything, and it's even less possible to do everything at the same time. We need to make sure the team is only working on features that should be built, and always in a prioritized order: from highest value to next-highest value and so forth. That means we must learn when (and how) to say "no" in addition to when to say "yes." Unless you know when to say "no," you'll end up with a lot of tangentially related features, a complex product that no one is really happy with, and an overworked product team.
 
 **Is it valuable? Can we do it?**
 
@@ -868,7 +909,7 @@ At a minimum, the features you decide to build should do the following:
 >
 > STEVE JOBS
 
-### Example: HomeWiFi feature prioritization
+#### Example: HomeWiFi feature prioritization
 
 <div markdown class="flex-column gap-1">
 
@@ -947,19 +988,19 @@ architectural boundaries. For instance, separate teams might build the back-end 
 
 Agile teams aspire to work in vertical slices, which means they build the product one small feature at a time. This allows teams to deliver new value to users frequently and get their feedback on the new functionality. Frequent user feedback helps agile teams make necessary adjustments sooner and at a smaller scale than with big releases.
 
-One vertical unit of development work may encompass GUI, client, and back-end work---whatever is needed to deliver one unit of value to the user. These thin vertical slices are commonly referred to as stories. As product manager, you'll work closely with your team to split your development work into good stories.
+One vertical unit of development work may encompass GUI, client, and back-end work---whatever is needed to deliver one unit of value to the user. These thin vertical slices are commonly referred to as stories. As a product manager, you'll work closely with your team to split your development work into good stories.
 
 ![Breaking down produuct](img/image_23.png){: class="width-80"}
 
 **The smaller the slices, the better**
 
-The smaller we can make a story, the simpler it will be to understand,estimate, implement, and test. We can more easily predict when features will be ready to ship. Developers can rotate through the codebase quicker and grow the team's bus count. Small stories enable frequent, tangible progress, which makes the team, the stakeholders, and the product sponsors feel good and means that value is delivered quickly to both users and the business.
+The smaller we can make a story, the simpler it will be to understand, estimate, implement, and test. We can more easily predict when features will be ready to ship. Developers can rotate through the codebase quicker and grow the team's bus count. Small stories enable frequent, tangible progress, which makes the team, the stakeholders, and the product sponsors feel good and means that value is delivered quickly to both users and the business.
 
 **Continuous prioritization enables agility**
 
 Agile/XP teams practice continuous prioritization. That is, although we do look a few weeks ahead to plan our work at a high level, we don't commit to a fixed sprint scope. That's because we might at any time learn about unexpected changes or new information that causes us to reevaluate our priorities. Continuous prioritization enables us to maximize our responsiveness to changing conditions and navigate complexity and uncertainty better than if we were to stick to a detailed, upfront plan.
 
-Developers will always pick up and work on the story at the very top of the backlog, so the order of the stories is very important. A story's position in the backlog communicates its priority---the most important stories are at the top of the backlog, whereas less important stories are near the bottom. It's your job as product manager to ensure the order of the backlog represents the latest priority.
+Developers will always pick up and work on the story at the very top of the backlog, so the order of the stories is very important. A story's position in the backlog communicates its priority - the most important stories are at the top of the backlog, whereas less important stories are near the bottom. It's your job as a product manager to ensure the order of the backlog represents the latest priority.
 
 ### Balance value, quality, and constraints
 
@@ -971,11 +1012,11 @@ Lean/agile teams must frequently make tradeoffs between value, quality, and cons
 
 Project management and product management are two commonly applied mindsets when it comes to defining software success.
 
-The role of project manager is a tactical one in that they're responsible for achieving a specific, predefined objective by following a plan with fixed start and end dates, and a fixed budget. Success in project management means delivering on time, in scope, and on budget.
+The role of the project manager is a tactical one in that they're responsible for achieving a specific, predefined objective by following a plan with fixed start and end dates and a fixed budget. Success in project management means delivering on time, in scope, and on budget.
 
-However, in the context of product development, project management aims to solve the wrong problems. Product failure is rarely due to schedule slippage or cost overrun. It's more commonly caused by building something customers don't want, don't need, or that doesn't create sufficient business value.
+However, in the context of product development, project management aims to solve the wrong problems. Product failure is rarely due to schedule slippage or cost overrun. It's more commonly caused by building something customers don't want, doesn't need, or that doesn't create sufficient business value.
 
-This is why the role of product manager is critical to product success. Product managers are responsible for defining what the product is and for whom, and how the product will drive business impact.
+This is why the role of the product manager is critical to product success. Product managers are responsible for defining what the product is and for whom, and how the product will drive business impact.
 
 Success in product management means delivering the right value at the
 right time.
@@ -989,7 +1030,7 @@ Product initiatives have three goals:
 2. Build and maintain **quality** to enable the team to develop, at speed, for as long as the business requires.
 3. Deliver within given **constraints** around people, time, and scope.
 
-Companies often want to keep all three of the goals fixed. However, because change is inevitable, this leads to failure--something unpredictable happens, the team can't realize all three goals, and burns out trying. It's why lean/agile organizations maintain flexibility by keeping fixed two goals at most and making tradeoffs when needed.
+Companies often want to keep all three of the goals fixed. However, because change is inevitable, this leads to failure - something unpredictable happens, and the team can't realize all three goals and burns out trying. It's why lean/agile organizations maintain flexibility by keeping fixed two goals at most and making tradeoffs when needed.
 
 **What is value and why does it matter?**
 
@@ -1003,7 +1044,7 @@ Quality is defined as reliability and adaptability. Reliability means that our c
 
 **How should we think about constraints?**
 
-Constraints are important, but they aren't the actual goals of the product. They work as guardrails for the team, establishing clear expectations around delivery. Only one of the three constraints--people, time, and scope--can be fixed. In agile organizations, it's usually time.
+Constraints are important, but they aren't the actual goals of the product. They work as guardrails for the team, establishing clear expectations around delivery. Only one of the three constraints - people, time, and scope - can be fixed. In agile organizations, it's usually time.
 
 ### Managing backlogs with Pivotal Tracker
 
@@ -1013,16 +1054,16 @@ At Cambria Labs, we typically manage the product backlog using an agile project 
 
 Tracker is a simple, story-based, agile project planning tool that enables teams to collaborate and react instantly to real-world changes. It's based on agile software development methods, but it can be used on a variety of projects.
 
-Tracker frees you up to focus on getting things done, without getting bogged down trying to keep your plans in sync with reality. Because of its simplicity, Tracker is helpful for illustrating the basics of how stories are used as the key unit for planning and executing an agile development team's work, and many of these same principles can be adapted in other tools.
+Tracker frees you up to focus on getting things done, without getting bogged down trying to keep your plans in sync with reality. Because of its simplicity, Tracker helps illustrate the basics of how stories are used as the key unit for planning and executing an agile development team's work, and many of these same principles can be adapted in other tools.
 
 **How?**
 
-Tracker acts as the central repository of project activity and also serves as an historical record of development progress. Tracker does this with a simple set of organizational constructs, as enumerated in the image to the right:
+Tracker acts as the central repository of project activity and also serves as a historical record of development progress. The tracker does this with a simple set of organizational constructs, as enumerated in the image to the right:
 
 ![Tracker](img/image_25.png)
 
 1. User story
-:   A story in Tracker is a description of the deliverable unit of value to the user or delivery team. A feature user story is something that a user wants to do, like "See activity feed" or "Filter product catalogue." Stories can be grouped together by labels. Tracker also defines chores and bugs as different story types.
+:   A story in Tracker is a description of the deliverable unit of value to the user or delivery team. A feature user story is something that a user wants to do, like "See activity feed" or "Filter product catalog." Stories can be grouped by labels. The tracker also defines chores and bugs as different story types.
 
 2. Done
 :   Stories in this section have been implemented by the development team and accepted by the product manager.
@@ -1050,22 +1091,22 @@ Agile development consists of a continuous feedback loop. Each story has a workf
 
 ![Story workflow](img/image_26.png){: class="float-right width-30"}
 
-Agility is the result of frequent feedback. The ability to accept, reject, and release stories enables you to give and get feedback from your customers, your team, and your stakeholders with every increment of functionality as you flow through these steps:
+Agility is the result of frequent feedback. The ability to accept, reject and release stories enable you to give and get feedback from your customers, your team, and your stakeholders with every increment of functionality as you flow through these steps:
 
 1. **Prioritize**. After writing stories, the product manager prioritizes them in the backlog.
 2. **Estimate**. The team discusses and collectively estimates the level of complexity of each story. If the story cannot be estimated, that may be the first indication that the work it describes needs to be broken down into smaller stories.
 3. **Start**. Developers pick up and begin work on the story when it's the next one at the top of the backlog.
-4. **Finish**. The developers commit all code changes to the project repository, and finish the story.
+4. **Finish**. The developers commit all code changes to the project repository and finish the story.
 5. **Deliver**. The committed code changes go through continuous integration testing. Once it passes, the code for the new feature is deployed to the team's acceptance environment, and the story is delivered.
 6. **Accept**. The product manager reviews delivered stories in the acceptance environment, checking against their acceptance criteria. If the acceptance criteria are completely met, they accept it; if incomplete, they reject it.
 7. **Release**. The code for the accepted stories is pushed to the team's production environment, as often as appropriate, where users can interact with the new features.
-8. **...and Repeat**. Based on user feedback, input from the business, and  we learned from our previous product release, the product manager determines what to prioritize next.
+8. **...and Repeat**. Based on user feedback, input from the business, and what we learned from our previous product release, the product manager determines what to prioritize next.
 
 #### Plan with stories
 
 Knowing what to do next is one of the agile product manager's most important skills. An effective product plan is made up of many small, independent user stories. This allows you to plan and easily respond to change.
 
-**The product manager as planner**
+**The product manager as a planner**
 
 The product manager is accountable for planning the work efficiently. This means:
 
@@ -1089,7 +1130,7 @@ All user stories need to be given a point estimate before developers can work on
 
 Knowing the relative complexity of stories helps the product manager prioritize and set expectations with stakeholders.
 
-For instance, you can decide to prioritize one big story or three small stories---the amount of work would be about the same, but in the first case, you'd ship one larger feature, whereas in the second case you'd ship three smaller features. It's important that the team focuses on complexity rather than effort as the points are ultimately a planning tool, not an exact time estimate.
+For instance, you can decide to prioritize one big story or three small stories---the amount of work would be about the same, but in the first case, you'd ship one larger feature, whereas in the second case, you'd ship three smaller features. The team must focus on complexity rather than effort as the points are ultimately a planning tool, not an exact time estimate.
 
 Neither bugs nor chores are given point estimates. The idea is that these two story types emerge over time, and while they do take time to address, they're an ongoing and fairly consistent cost.
 
@@ -1105,7 +1146,7 @@ When your team gets good at building up features with small, consistently sized 
 
 **Respond to change**
 
-When building software, it's impossible to gather all the requirements up front. Responding to change requires knowing how to reprioritize, reestimate and reorganize stories.
+When building software, it's impossible to gather all the requirements upfront. Responding to change requires knowing how to reprioritize, reestimate and reorganize stories.
 
 #### Write user stories
 
@@ -1128,7 +1169,7 @@ Although user stories serve as placeholders for conversations with agile develop
 |                                                   |                                                   |
 |:--------------------------------------------------|:--------------------------------------------------|
 |  1\. Title <br> Should be short and descriptive enough to understand, at a glance, the functionality to be enabled with delivery of this story. |  2\. Description <br> Should explain WHO wants the functionality, WHY they want it, and to WHAT end. The clearer this context is for the team, the better equipped they are to make decisions and evaluate tradeoffs during implementation of this functionality. <br><br> The commonly used Connextra format can be used as a starting point to provide this information. <br> ![User Stories - Description](img/image_27.png) |
-|  3\. Acceptance criteria <br> Should list the scenarios the product manager will use to verify that the story has been completed and enables the desired functionality. This is also used as a starting point for the developer’s tests, and helps delineate when work on this story is “done.” <br><br> The commonly used Gherkin syntax can be used to make acceptance criteria and test scenarios clear for everyone on the team. <br> ![User Stories - Acceptance Criteria](img/image_28.png) |  4\. Resources <br> Should include all mocks, wireframes, user flows, and other assets that help explain the user story. <br> ![User Stories - Resources](img/image_29.png) |
+|  3\. Acceptance criteria <br> Should list the scenarios the product manager will use to verify that the story has been completed and enables the desired functionality. This is also used as a starting point for the developer’s tests, and helps delineate when work on this story is "done." <br><br> The commonly used Gherkin syntax can be used to make acceptance criteria and test scenarios clear for everyone on the team. <br> ![User Stories - Acceptance Criteria](img/image_28.png) |  4\. Resources <br> Should include all mocks, wireframes, user flows, and other assets that help explain the user story. <br> ![User Stories - Resources](img/image_29.png) |
 
 ##### Example user stories: good vs. bad
 
@@ -1154,25 +1195,25 @@ Chores, bugs and release markers enable you to capture work that needs to get do
 
 Just like the user story, these story types represent concrete tasks or deliverables. However, because they don't provide direct business or user value, they don't get estimated. (Learn more on this in "[*Run The Iteration Planning Meeting*](#run-the-iteration-planning-meeting).")
 
-<p class="table_without_header"></p>
+<p class="table_without_header mobile_imgs"></p>
 
 |                                                   |                                                   |
 |:--------------------------------------------------|:--------------------------------------------------|
 | ![Release maker](img/image_32.png)                | **Release marker**  <br> Releases are milestone markers that allow your team to track progress towards concrete goals, such as stakeholder or investor demos, software launches, and more. Using these markers, it's possible to specify target dates for releases. The product manager decides how to organize the backlog into releases. |
-| ![Chore](img/image_33.png)                        | **Chore** <br> A chore is a story that provides no direct, obvious value to the user, but is needed for product development. Here are some example chores: <br> - Set up new domain and wildcard SSL certificate for test environments <br> - Evaluate tools for system troubleshooting <br> - Conduct exploratory testing (this is often referred to as a “charter”) <br> Chores can represent “technical debt” and/or points of dependency on other teams. Chores are not estimated, as they don’t directly contribute business value. Developers, often in partnership with the product manager, create chores for the backlog. |
+| ![Chore](img/image_33.png)                        | **Chore** <br> A chore is a story that provides no direct, obvious value to the user, but is needed for product development. Here are some example chores: <br> - Set up new domain and wildcard SSL certificate for test environments <br> - Evaluate tools for system troubleshooting <br> - Conduct exploratory testing (this is often referred to as a "charter") <br> Chores can represent "technical debt" and/or points of dependency on other teams. Chores are not estimated, as they don’t directly contribute business value. Developers, often in partnership with the product manager, create chores for the backlog. |
 | ![Bug](img/image_34.png)                          | **Bug** <br> A bug is a defect in a feature that’s already been accepted, regardless of when it was accepted. You shouldn’t use bugs to detail new features and functionality. Here are some examples of bugs: <br> - Price should be non-negative <br> - Login button doesn’t work <br> Bugs don’t have points because they’re directly related to features that have already been delivered. A bug description should include steps to recreate the bug such that anyone, with minimum context, can see the bug themselves. <br> Anyone on the team can create a bug. It’s up to the product manager to prioritize it. |
 
 **Know your story makers**
 
-<p class="table_without_header"></p>
+<p class="table_without_header mobile_imgs"></p>
 
 |                                     |                                                                          |
 |:------------------------------------|:-------------------------------------------------------------------------|
-| ![User story](img/image_35.png){: class="width-30"} | **User story**: The "who," "what" and "why" of a new feature |
-| ![Story point](img/image_36.png){: class="width-30"} | **Story points**: The estimated relative complexity of a story |
-| ![Chore](img/image_33.png){: class="width-30"} | **Chore**: Tasks that are necessary but don't add direct or obvious user value  |
-| ![Bug](img/image_34.png){: class="width-30"} | **Bug**: Tasks that will resolve unintended behavior            |
-| ![Release](img/image_32.png){: class="width-30"} | **Release**: A project milestone                            |
+| ![User story](img/image_35.png) | **User story**: The "who," "what" and "why" of a new feature |
+| ![Story point](img/image_36.png) | **Story points**: The estimated relative complexity of a story |
+| ![Chore](img/image_33.png) | **Chore**: Tasks that are necessary but don't add direct or obvious user value  |
+| ![Bug](img/image_34.png) | **Bug**: Tasks that will resolve unintended behavior            |
+| ![Release](img/image_32.png) | **Release**: A project milestone                            |
 
 ### Run the iteration planning meeting
 
@@ -1191,7 +1232,7 @@ The goal here is to be crystal clear on when a feature is "done-done."
 
 **Run a complexity check and estimate**
 
-Each developer that could work on a story should provide an estimate of the story's complexity in a number of points. If the implementation is not clear, they should have time to talk through approaches during the IPM. That said, their role is to nail down a level of complexity, not pin themselves to a specific technical implementation in this setting. Based on the estimated size or developer feedback, stories can be nominated for merging or splitting up. If that's the case, capture the pieces of work as placeholders and update them with details after the IPM.
+Each developer that could work on a story should provide an estimate of the story's complexity in several points. If the implementation is not clear, they should have time to talk through approaches during the IPM. That said, their role is to nail down a level of complexity, not pin themselves to a specific technical implementation in this setting. Based on the estimated size or developer feedback, stories can be nominated for merging or splitting up. If that's the case, capture the pieces of work as placeholders and update them with details after the IPM.
 
 **Pay down debt**
 
@@ -1199,7 +1240,7 @@ A healthy development process will incorporate refactors and tackle technical de
 
 **Estimate stories out to two iterations, max**
 
-Tracker will group stories into iterations based on the team's historical velocity. You should only step through stories until you've got two iterations' worth of estimated work. Keep the visibility to two weeks so you're able to cover for any quicker-than-intended delivery of features, and limit the IPM to a reasonable amount of upcoming work. It's taxing to keep the mental inventory of features in your head; sticking with the short-term future focuses everyone on the team around tangible new features.
+The tracker will group stories into iterations based on the team's historical velocity. You should only step through stories until you've got two iterations' worth of estimated work. Keep the visibility to two weeks so you're able to cover for any quicker-than-intended delivery of features, and limit the IPM to a reasonable amount of upcoming work. It's taxing to keep the mental inventory of features in your head; sticking with the short-term future focuses everyone on the team around tangible new features.
 
 **Keep it short and sweet**
 
@@ -1215,7 +1256,7 @@ The ultimate goal of any product team is to ship the right working features to u
 
 User testing that doesn't put software into the hands of real users limits what we can learn. Working software can help answer questions like, "Have we built enough? Are we focusing on the most important feature first? Are we likely to hit the key performance indicators that the business believes we're going to hit?"
 
-We want to keep this feedback loop with our users as short as possible so that we can continuously validate our product direction. Should we go deeper on features we have, or go wider on new features? We want to release the smallest thing possible that--in light of user value, business objectives, and technical constraints--will provide data showing what our users find valuable, which will then inform our work.
+We want to keep this feedback loop with our users as short as possible so that we can continuously validate our product direction. Should we go deeper on features we have, or go wider on new features? We want to release the smallest thing possible that - in light of user value, business objectives, and technical constraints - will provide data showing what our users find valuable, which will then inform our work.
 
 We also want to make our releases as easy and cheap as possible. If releases are risky, expensive, and cumbersome, we'll push them off, and only be able to release occasionally. A repeatable, regular, successful, reliable, and cost-effective release process is critical to our ability to continuously deliver small chunks of value.
 Frequently releasing thin slices of our product enables us to easily roll back any changes, and to debug issues quickly.
@@ -1224,7 +1265,7 @@ Frequently releasing thin slices of our product enables us to easily roll back a
 
 Because our ability to ship depends on our delivery infrastructure and the quality of our code, whether or not we can ship is a technical decision. Our ideal state is to always be able to ship so that we can release new features whenever it makes sense to do so from a business perspective.
 
-Our ability to ship is impacted by a number of factors:
+Our ability to ship is impacted by several factors:
 
 - Code quality
 - Test coverage
@@ -1235,12 +1276,12 @@ Our ability to ship is impacted by a number of factors:
 
 The decision to release should come from the business. We need to weigh the user value we can deliver right now against the cost and risk of shipping. We do this by gathering input around the following:
 
-- **User needs**: How urgently do users need a new feature or refined feature design?
-- **Stakeholders**: Are marketing, sales, customer service, and other teams ready to support the features we want to ship?
-- **Other product teams**: If we depend on other teams' services being in production before we can release, we need to make sure those services are ready for us to use.
-- **Release size**: The bigger the release, the riskier it is.
-- **How manual our process is**: The more manual the process, the more expensive it is.
-- **Delivery infrastructure**: How easy is it to push code to production?
+- **User needs:** How urgently do users need a new feature or refined feature design?
+- **Stakeholders:** Are marketing, sales, customer service, and other teams ready to support the features we want to ship?
+- **Other product teams:** If we depend on other teams' services being in production before we can release them, we need to make sure those services are ready for us to use.
+- **Release size:** The bigger the release, the riskier it is.
+- **How manual our process is:** The more manual the process, the more expensive it is.
+- **Delivery infrastructure:** How easy is it to push code to production?
 
 **What's the path to production?**
 
@@ -1252,7 +1293,7 @@ To deliver value fast forever, we need to make sure we're running at a comfortab
 
 **Let's go fast, forever**
 
-Keeping a sustainable pace is a core tenet of XP. It states that the team should aim to establish a work pace that they can sustain indefinitely. This enables teams to build better software, ship it in a predictable manner, and do so with regularity.
+Keeping a sustainable pace is a core tenet of XP. It states that the team should aim to establish a work pace that they can sustain indefinitely. This enables teams to build better software, ship it predictably, and do so with regularity.
 
 Cambria Labs communicates its belief in sustainable pace by encouraging teams to establish core hours (typically starting at 9 AM and ending at 6 PM sharp for co-located teams) with a full one-hour lunch break. Team stand-ups and other ceremonies should only be scheduled within core hours, and regular breaks throughout the day are encouraged to help everyone refresh between bursts of highly focused activities.
 
@@ -1260,14 +1301,14 @@ Cambria Labs communicates its belief in sustainable pace by encouraging teams to
 
 We believe that building a product is a marathon, not a sprint. We don't do "crunch time" at Cambria Labs. We believe that putting in significant overtime is detrimental to work quality, team productivity, and team health.
 
-Willpower is a depleting resource. If we don't replenish it with sleep and sufficient downtime, our discipline and work suffer. Long hours lead to burnout and poor decision-making. A developer who stays up late to code a feature will realize the next morning that they'll need to rewrite it all. Even if the code is good, working late without the rest of the team reduces shared ownership of the project by creating knowledge silos. Working just 8 hours a day at full intensity will produce better results than working extra hours on a regular basis.
+Willpower is a depleting resource. If we don't replenish it with sleep and sufficient downtime, our discipline and work suffer. Long hours lead to burnout and poor decision-making. A developer who stays up late to code a feature will realize the next morning that they'll need to rewrite it all. Even if the code is good, working late without the rest of the team reduces shared ownership of the project by creating knowledge silos. Working just 8 hours a day at full intensity will produce better results than working extra hours regularly.
 
 We believe that Cambria Labs teams get more done by identifying and minimizing any nonproductive activities during the workday, as it allows them to focus on value-generating activities instead. Hours spent don't matter if we focus on maximizing the value we produce.
 Many clients report being exhausted after their first week on a product team with Cambria Labs--that's what happens when you get an uninterrupted 8 hours a day to work!
 
-Product managers play a critical role in maintaining a sustainable pace by prioritizing the right product and business goals and communicating with the right stakeholders to ensure that whatever is delivered isn't a surprise. This means conducting regular stakeholder check-ins and demos as needed, maintaining an up-to-date product roadmap, and creating consensus with the business to avoid scope creep and "crunch time." Product managers should also lead efficiency-improving activities such as removing team blockers,eliminating unproductive meetings, and boosting team morale. Think outside the box for how you can contribute to a sustainable pace and team happiness--no team ever complains when their product manager surprises them with donuts!
+Product managers play a critical role in maintaining a sustainable pace by prioritizing the right product and business goals and communicating with the right stakeholders to ensure that whatever is delivered isn't a surprise. This means conducting regular stakeholder check-ins and demos as needed, maintaining an up-to-date product roadmap, and creating consensus with the business to avoid scope creep and "crunch time." Product managers should also lead efficiency-improving activities such as removing team blockers, eliminating unproductive meetings, and boosting team morale. Think outside the box for how you can contribute to a sustainable pace and team happiness - no team ever complains when their product manager surprises them with donuts!
 
-![Product manager](img/image_37.png)
+![Product Manager](img/image_37.png)
 
 ### Communicate effectively
 
@@ -1275,19 +1316,19 @@ To launch successful products, you need to build a shared understanding with you
 
 **Strong communication skills help you lead without authority**
 
-You'll be championing your product to sponsors within your organization, making tradeoffs with stakeholders and other product teams, and facilitating the making of daily, tactical decisions within your own team. You'll need to inspire trust as well as motivate and influence all parties to help you and your team bring a successful product to market. The strength of your communication skills will determine how well you'll be able to develop the credibility and strong relationships needed to do so.
+You'll be championing your product to sponsors within your organization, making tradeoffs with stakeholders and other product teams, and facilitating the making of daily, tactical decisions within your team. You'll need to inspire trust as well as motivate and influence all parties to help you and your team bring a successful product to market. The strength of your communication skills will determine how well you'll be able to develop the credibility and strong relationships needed to do so.
 
-**Stakeholders**: Functional teams such as legal, security, sales, and marketing will want to know that you understand their needs and how your product supports their goals. For instance, marketing will want to know how your product will drive leads, and sales will want to know how your product will help close those leads.
+**Stakeholders:** Functional teams such as legal, security, sales, and marketing will want to know that you understand their needs and how your product supports their goals. For instance, marketing will want to know how your product will drive leads, and sales will want to know how your product will help close those leads.
 
-**Sponsors**: Executive sponsors will want to know how your product will increase the bottom line. Share with them the strategic objectives and KPI you're working toward, and once launched, document and share with them the business impact the product is having.
+**Sponsors:** Executive sponsors will want to know how your product will increase the bottom line. Share with them the strategic objectives and KPIs you're working toward, and once launched, document and share with them the business impact the product is having.
 
-**Core team**: Create pathways for short feedback loops amongst core team members. Make sure you're responsive to your team's communication needs by being present and available. Share incoming information from sponsors and stakeholders quickly and as appropriate--shield the team from information overload while making sure they have the information they need to do their work.
+**Core team:** Create pathways for short feedback loops amongst core team members. Make sure you're responsive to your team's communication needs by being present and available. Share incoming information from sponsors and stakeholders quickly and as appropriate - shield the team from information overload while making sure they have the information they need to do their work.
 
-**Others**: Your team may be taking a very different approach to working than other teams in your organization. Help your colleagues understand how being lean/agile/user-centered impacts the cadence, needs, health, and success of your product and your product team.
+**Others:** Your team may be taking a very different approach to working than other teams in your organization. Help your colleagues understand how being lean/agile/user-centered impacts the cadence, needs, health, and success of your product and your product team.
 
 **Tips for effective communication**
 
-There are a number of ways to communicate effectively that are especially important as a product manager.
+There are several ways to communicate effectively that are especially important as a product manager.
 
 **Tell a story**. Why does the product exist? Why does it matter? A compelling product story will make the product feel real and create an emotional bond, which will inspire others to invest in its success. Use anecdotes, user journeys, prototypes, videos, and other artifacts to help tell your product's story.
 
@@ -1381,4 +1422,5 @@ Check out these books, videos and articles to dive deeper into concepts and tool
 - [*What makes a great product manager*](https://springone.io/2020/sessions/what-makes-a-great-product-manager) <br> by Michael Gresham, Adrien Hensley, Kenneth McDougall, Jennifer Handler
 
 ## Credits & Contributions
+
 - Pivotal Labs Product Manager Playbook, by Pivotal
