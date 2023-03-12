@@ -17,3 +17,6 @@ Our disciplined agile practice focuses on test-driven development, pair collabor
 
 # Client Enablement
 We believe the only way to build great software is to **assemble and educate great teams**.  We provide focused coaching as we design & develop products together. 
+
+
+https://en.wikipedia.org/wiki/Cambrian_explosion

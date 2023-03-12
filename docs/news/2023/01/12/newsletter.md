@@ -11,7 +11,8 @@ Tags: [drumbeat, news]
 # Our Accomplishments
 # Outcome roadmap
 # Problems / Help
-# Interesting
+# Interesting 
+[Designer Voices](https://blog.elevenlabs.io/enter-the-new-year-with-a-bang/)
 # Team Fun
 # Events
 # Learn More
