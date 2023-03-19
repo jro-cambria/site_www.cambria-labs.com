@@ -4,23 +4,25 @@ Tags: [principles, values]
 Draft: true
 ---
 
-1.  Inclusivity: Community makerspaces should be open to everyone, regardless of their race, gender, religion, or socio-economic background. They should strive to create an environment that is welcoming and accepting of all individuals.
+Cambria Labs is:
+
+Welcoming. We prioritize customer service. 
+
+Creative:  We encourage members to explore new ideas and take risks in their projects.
+
+Collaborative. Members work together to share knowledge, skills, and resources to create something greater than what they could achieve alone.
     
-2.  Collaboration: Collaboration is a core value of makerspaces. Members should work together to share knowledge, skills, and resources to create something greater than what they could achieve alone.
+Accessible. The spaces, equipment & tools are physically accessible
     
-3.  Accessibility: Makerspaces should be accessible to all members of the community. This includes making sure that the space is physically accessible, as well as providing affordable access to equipment and tools.
+Sustainable: We minimize waste and and are environmentally sustainable. We use recycled materials, minimize energy consumption, and promote eco-friendly practices.
     
-4.  Creativity: Creativity is at the heart of makerspaces. Members should be encouraged to explore new ideas and take risks in their projects.
+Learning: We teach and learn from one another. Concept: Teaching Hospitals.
     
-5.  Sustainability: Makerspaces should aim to minimize waste and be environmentally sustainable. This can include using recycled materials, minimizing energy consumption, and promoting eco-friendly practices.
+Community-focused: Members form strong bonds and relationships with one another, and organigze & participate in social events and activities outside of the makerspace.
+
+Transparent: We believes in being transparent with each other. We are honest about strengths and weaknesses, mistakes, and value feedback.
     
-6.  Learning: Makerspaces are places where individuals can learn new skills and techniques. Members should be encouraged to teach and learn from one another, as well as participate in workshops and other learning opportunities.
-    
-7.  Community: Makerspaces should be places where members can form strong bonds and relationships with one another. This can include participating in social events and activities outside of the makerspace.
-8. 
-9.  Radical transparency: Dalio believes in being completely transparent with others and encouraging them to be transparent with him. This means being honest about strengths and weaknesses, mistakes, and feedback.
-    
-2.  Radical openness: Dalio also believes in being open to new ideas and perspectives, even if they challenge his own beliefs. He encourages others to do the same and to seek out diverse viewpoints.
+Open. We are open to new ideas and perspectives, especially if they challenge our  beliefs. We seek out diverse viewpoints.
     
 3.  Meritocracy: Dalio believes in creating a culture of meritocracy, where the best ideas and people rise to the top based on their abilities and contributions.
     
@@ -194,3 +196,17 @@ principles and values that Edison espoused:
 6.  Education: King believed in the importance of education and believed that it was a powerful tool for creating social change. He encouraged people to educate themselves about social issues and to work towards creating a more just and equal society.
     
 7.  Faith: King was a deeply religious man and believed that faith could be a powerful force for social change. He believed in the power of love, forgiveness, and compassion to transform the world.
+
+The Yellow Bike Project has a set of principles and values that guide its work and mission. These principles and values include:
+
+1.  Accessibility: The Yellow Bike Project believes that everyone should have access to bicycles and cycling as a mode of transportation, regardless of income or social status.
+    
+2.  Sustainability: The organization promotes the use of bicycles as a sustainable mode of transportation that reduces carbon emissions and promotes a healthy lifestyle.
+    
+3.  Empowerment: The Yellow Bike Project aims to empower individuals by providing them with the tools and knowledge to fix their own bikes and become self-sufficient.
+    
+4.  Community: The organization believes in building a strong and inclusive community that supports cycling as a means of transportation and healthy living.
+    
+5.  Education: The Yellow Bike Project offers workshops and programs that teach individuals how to fix and maintain their own bikes, promoting education and knowledge sharing.
+    
+6.  Volunteerism: The organization relies on volunteers to run its operations, and encourages individuals to get involved and give back to the community.
