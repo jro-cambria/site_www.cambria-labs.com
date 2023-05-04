@@ -1,7 +1,7 @@
 ---
 title: "About Cambria Labs"
 ---
-# _"We can build that."_
+# _"We can build your dream together."_
 
 # Who we are
 Our team is at the forefront of agile product development.  We help you bring your product vision to market, accelerate your existing development efforts and prepare your team to bring agile practices home, in order to strengthen your in-house development capabilities.
